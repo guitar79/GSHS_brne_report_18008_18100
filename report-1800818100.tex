@@ -1,8 +1,9 @@
+%%!TeX program = xelatex
+%% 부득이하게 pdflatex을 사용해야 할 경우 위의 magic comment를 제거하십시오.
+
 % Initiated by 정민석(2014년도 경기과학고 수학과전문교원)
 % Continously being modified by 경기과학고 TeX 사용자협회
 % Website : http://gshslatexintro.github.io 
-% 추가로 필요한 패키지가 있다면 주석을 풀고 적어넣으십시오,
-%\usepackage{...}
 
 \include{sub/preamble_report} % usepackage 등의 명령어는 여기에.
 \usepackage{cite}
@@ -22,6 +23,13 @@
 %초록(영문)
 \include{sub/abstract} % Abstract
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Main Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\clearpage
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
 
 %각 장을 아래와 같이 sub 폴더 안에 만들어서 넣으면 편리하다.
 \include{sub/body1} % body1

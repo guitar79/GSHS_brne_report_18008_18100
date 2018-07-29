@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.15)  29 JUL 2018 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.15)  29 JUL 2018 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,12 +9,295 @@ Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 \@input{sub/preamble_report.aux}
 \openout2 = `sub/preamble_report.aux'.
 
-(./sub/preamble_report.tex (./gshs-report-v1.3.cls
+(./sub/preamble_report.tex (./gshs_report.cls
+Document Class: gshs_report 
+(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(c:/texlive/2018/texmf-dist/tex/latex/cjk-ko/kotex.sty
+Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
 
-LaTeX Warning: You have requested document class `gshs-report-v1.3',
-               but the document class provides `gshs-report-v1.2'.
+(c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/kotex.cfg)
+(c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
+Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
 
-Document Class: gshs-report-v1.2 2016/06/10 v.1.21
+(c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(c:/texlive/2018/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
+\unih@ngulpoint=\count80
+\dhucs@emph@raise=\dimen102
+)
+Now handling font encoding LUC ...
+... processing UTF-8 mapping file for font encoding LUC
+
+(c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
+File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+3001 (decimal 12289)
+   defining Unicode char U+3002 (decimal 12290)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+300A (decimal 12298)
+   defining Unicode char U+300B (decimal 12299)
+   defining Unicode char U+300C (decimal 12300)
+   defining Unicode char U+300D (decimal 12301)
+   defining Unicode char U+300E (decimal 12302)
+   defining Unicode char U+300F (decimal 12303)
+   defining Unicode char U+3010 (decimal 12304)
+   defining Unicode char U+3011 (decimal 12305)
+   defining Unicode char U+3014 (decimal 12308)
+   defining Unicode char U+3015 (decimal 12309)
+   defining Unicode char U+3016 (decimal 12310)
+   defining Unicode char U+3017 (decimal 12311)
+   defining Unicode char U+3018 (decimal 12312)
+   defining Unicode char U+3019 (decimal 12313)
+   defining Unicode char U+301A (decimal 12314)
+   defining Unicode char U+301B (decimal 12315)
+   defining Unicode char U+FF01 (decimal 65281)
+   defining Unicode char U+FF08 (decimal 65288)
+   defining Unicode char U+FF09 (decimal 65289)
+   defining Unicode char U+FF0C (decimal 65292)
+   defining Unicode char U+FF0E (decimal 65294)
+   defining Unicode char U+FF1A (decimal 65306)
+   defining Unicode char U+FF1B (decimal 65307)
+   defining Unicode char U+FF1C (decimal 65308)
+   defining Unicode char U+FF1D (decimal 65309)
+   defining Unicode char U+FF1E (decimal 65310)
+   defining Unicode char U+FF1F (decimal 65311)
+   defining Unicode char U+FF3B (decimal 65339)
+   defining Unicode char U+FF3D (decimal 65341)
+   defining Unicode char U+FF5B (decimal 65371)
+   defining Unicode char U+FF5D (decimal 65373)
+   defining Unicode char U+FF61 (decimal 65377)
+   defining Unicode char U+FF62 (decimal 65378)
+   defining Unicode char U+FF63 (decimal 65379)
+   defining Unicode char U+FF64 (decimal 65380)
+   defining Unicode char U+FF65 (decimal 65381)
+)
+\@josa=\count81
+\josatoks=\toks16
+
+(c:/texlive/2018/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
+Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
+)))
+(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen104
+))
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks19
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks20
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(c:/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen115
+\captionmargin@=\dimen116
+\captionwidth=\dimen117
+\caption@tempdima=\dimen118
+\caption@indent=\dimen119
+\caption@parindent=\dimen120
+\caption@hangindent=\dimen121
+)
+\c@ContinuedFloat=\count102
+)
+(c:/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count103
+\c@subtable=\count104
+)
+(c:/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip46
+\f@nch@O@elh=\skip47
+\f@nch@O@erh=\skip48
+\f@nch@O@olh=\skip49
+\f@nch@O@orh=\skip50
+\f@nch@O@elf=\skip51
+\f@nch@O@erf=\skip52
+\f@nch@O@olf=\skip53
+\f@nch@O@orf=\skip54
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) (c:/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
+\ttl@plus=\dimen122
+\ttl@minus=\dimen123
+\ttl@toksa=\toks24
+\titlewidth=\dimen124
+\titlewidthlast=\dimen125
+\titlewidthfirst=\dimen126
+)
+(c:/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip57
+\cftbeforetoctitleskip=\skip58
+\cftaftertoctitleskip=\skip59
+\cftbeforepartskip=\skip60
+\cftpartnumwidth=\skip61
+\cftpartindent=\skip62
+\cftbeforesecskip=\skip63
+\cftsecindent=\skip64
+\cftsecnumwidth=\skip65
+\cftbeforesubsecskip=\skip66
+\cftsubsecindent=\skip67
+\cftsubsecnumwidth=\skip68
+\cftbeforesubsubsecskip=\skip69
+\cftsubsubsecindent=\skip70
+\cftsubsubsecnumwidth=\skip71
+\cftbeforeparaskip=\skip72
+\cftparaindent=\skip73
+\cftparanumwidth=\skip74
+\cftbeforesubparaskip=\skip75
+\cftsubparaindent=\skip76
+\cftsubparanumwidth=\skip77
+\cftbeforeloftitleskip=\skip78
+\cftafterloftitleskip=\skip79
+\cftbeforefigskip=\skip80
+\cftfigindent=\skip81
+\cftfignumwidth=\skip82
+\c@lofdepth=\count105
+\c@lotdepth=\count106
+\cftbeforelottitleskip=\skip83
+\cftafterlottitleskip=\skip84
+\cftbeforetabskip=\skip85
+\cfttabindent=\skip86
+\cfttabnumwidth=\skip87
+)
+(c:/texlive/2018/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count107
+\c@@ppsavesec=\count108
+\c@@ppsaveapp=\count109
+)
 (c:/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -22,11 +305,6 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(c:/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-)
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -49,8 +327,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
@@ -63,229 +341,275 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
+(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen127
+\ar@mcellbox=\box29
+\extrarowheight=\dimen128
+\NC@list=\toks25
+\extratabsurround=\skip88
+\backup@length=\skip89
+\ar@cellbox=\box30
+)
+(c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(c:/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip90
+\enit@outerparindent=\dimen129
+\enit@toks=\toks26
+\enit@inbox=\box31
+\enitdp@description=\count110
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
+
+(c:/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box32
+\sift@deathcycles=\count111
+\@vwid@loff=\dimen130
+\@vwid@roff=\dimen131
+)
+\c@taburow=\count112
+\tabu@nbcols=\count113
+\tabu@cnt=\count114
+\tabu@Xcol=\count115
+\tabu@alloc=\count116
+\tabu@nested=\count117
+\tabu@target=\dimen132
+\tabu@spreadtarget=\dimen133
+\tabu@naturalX=\dimen134
+\tabucolX=\dimen135
+\tabu@Xsum=\dimen136
+\extrarowdepth=\dimen137
+\abovetabulinesep=\dimen138
+\belowtabulinesep=\dimen139
+\tabustrutrule=\dimen140
+\tabu@thebody=\toks27
+\tabu@footnotes=\toks28
+\tabu@box=\box33
+\tabu@arstrutbox=\box34
+\tabu@hleads=\box35
+\tabu@vleads=\box36
+\tabu@cellskip=\skip91
+)
+(c:/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count118
+)
 (c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
 (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018/03/05 L3 programming layer (loader) 
 
 (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count80
-\l_tmpa_int=\count81
-\l_tmpb_int=\count82
-\g_tmpa_int=\count83
-\g_tmpb_int=\count84
-\g__intarray_font_int=\count85
-\g__prg_map_int=\count86
-\c_log_iow=\count87
-\l_iow_line_count_int=\count88
-\l__iow_line_target_int=\count89
-\l__iow_one_indent_int=\count90
-\l__iow_indent_int=\count91
-\c_zero_dim=\dimen102
-\c_max_dim=\dimen103
-\l_tmpa_dim=\dimen104
-\l_tmpb_dim=\dimen105
-\g_tmpa_dim=\dimen106
-\g_tmpb_dim=\dimen107
-\c_zero_skip=\skip41
-\c_max_skip=\skip42
-\l_tmpa_skip=\skip43
-\l_tmpb_skip=\skip44
-\g_tmpa_skip=\skip45
-\g_tmpb_skip=\skip46
-\c_zero_muskip=\muskip10
-\c_max_muskip=\muskip11
-\l_tmpa_muskip=\muskip12
-\l_tmpb_muskip=\muskip13
-\g_tmpa_muskip=\muskip14
-\g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count92
-\c__fp_leading_shift_int=\count93
-\c__fp_middle_shift_int=\count94
-\c__fp_trailing_shift_int=\count95
-\c__fp_big_leading_shift_int=\count96
-\c__fp_big_middle_shift_int=\count97
-\c__fp_big_trailing_shift_int=\count98
-\c__fp_Bigg_leading_shift_int=\count99
-\c__fp_Bigg_middle_shift_int=\count100
-\c__fp_Bigg_trailing_shift_int=\count101
-\c__fp_rand_size_int=\count102
-\c__fp_rand_four_int=\count103
-\c__fp_rand_eight_int=\count104
-\l__sort_length_int=\count105
-\l__sort_min_int=\count106
-\l__sort_top_int=\count107
-\l__sort_max_int=\count108
-\l__sort_true_max_int=\count109
-\l__sort_block_int=\count110
-\l__sort_begin_int=\count111
-\l__sort_end_int=\count112
-\l__sort_A_int=\count113
-\l__sort_B_int=\count114
-\l__sort_C_int=\count115
-\l__tl_build_start_index_int=\count116
-\l__tl_build_index_int=\count117
-\l__tl_analysis_normal_int=\count118
-\l__tl_analysis_index_int=\count119
-\l__tl_analysis_nesting_int=\count120
-\l__tl_analysis_type_int=\count121
-\l__regex_internal_a_int=\count122
-\l__regex_internal_b_int=\count123
-\l__regex_internal_c_int=\count124
-\l__regex_balance_int=\count125
-\l__regex_group_level_int=\count126
-\l__regex_mode_int=\count127
-\c__regex_cs_in_class_mode_int=\count128
-\c__regex_cs_mode_int=\count129
-\l__regex_catcodes_int=\count130
-\l__regex_default_catcodes_int=\count131
-\c__regex_catcode_D_int=\count132
-\c__regex_catcode_S_int=\count133
-\c__regex_catcode_L_int=\count134
-\c__regex_catcode_O_int=\count135
-\c__regex_catcode_A_int=\count136
-\c__regex_all_catcodes_int=\count137
-\l__regex_show_lines_int=\count138
-\l__regex_min_state_int=\count139
-\l__regex_max_state_int=\count140
-\l__regex_left_state_int=\count141
-\l__regex_right_state_int=\count142
-\l__regex_capturing_group_int=\count143
-\l__regex_min_pos_int=\count144
-\l__regex_max_pos_int=\count145
-\l__regex_curr_pos_int=\count146
-\l__regex_start_pos_int=\count147
-\l__regex_success_pos_int=\count148
-\l__regex_curr_char_int=\count149
-\l__regex_curr_catcode_int=\count150
-\l__regex_last_char_int=\count151
-\l__regex_case_changed_char_int=\count152
-\l__regex_curr_state_int=\count153
-\l__regex_step_int=\count154
-\l__regex_min_active_int=\count155
-\l__regex_max_active_int=\count156
-\l__regex_replacement_csnames_int=\count157
-\l__regex_match_count_int=\count158
-\l__regex_min_submatch_int=\count159
-\l__regex_submatch_int=\count160
-\l__regex_zeroth_submatch_int=\count161
-\g__regex_trace_regex_int=\count162
-\c_empty_box=\box26
-\l_tmpa_box=\box27
-\l_tmpb_box=\box28
-\g_tmpa_box=\box29
-\g_tmpb_box=\box30
-\l__box_top_dim=\dimen108
-\l__box_bottom_dim=\dimen109
-\l__box_left_dim=\dimen110
-\l__box_right_dim=\dimen111
-\l__box_top_new_dim=\dimen112
-\l__box_bottom_new_dim=\dimen113
-\l__box_left_new_dim=\dimen114
-\l__box_right_new_dim=\dimen115
-\l__box_internal_box=\box31
-\l__coffin_internal_box=\box32
-\l__coffin_internal_dim=\dimen116
-\l__coffin_offset_x_dim=\dimen117
-\l__coffin_offset_y_dim=\dimen118
-\l__coffin_x_dim=\dimen119
-\l__coffin_y_dim=\dimen120
-\l__coffin_x_prime_dim=\dimen121
-\l__coffin_y_prime_dim=\dimen122
-\c_empty_coffin=\box33
-\l__coffin_aligned_coffin=\box34
-\l__coffin_aligned_internal_coffin=\box35
-\l_tmpa_coffin=\box36
-\l_tmpb_coffin=\box37
-\l__coffin_display_coffin=\box38
-\l__coffin_display_coord_coffin=\box39
-\l__coffin_display_pole_coffin=\box40
-\l__coffin_display_offset_dim=\dimen123
-\l__coffin_display_x_dim=\dimen124
-\l__coffin_display_y_dim=\dimen125
-\l__coffin_bounding_shift_dim=\dimen126
-\l__coffin_left_corner_dim=\dimen127
-\l__coffin_right_corner_dim=\dimen128
-\l__coffin_bottom_corner_dim=\dimen129
-\l__coffin_top_corner_dim=\dimen130
-\l__coffin_scaled_total_height_dim=\dimen131
-\l__coffin_scaled_width_dim=\dimen132
+\c_max_int=\count119
+\l_tmpa_int=\count120
+\l_tmpb_int=\count121
+\g_tmpa_int=\count122
+\g_tmpb_int=\count123
+\g__intarray_font_int=\count124
+\g__prg_map_int=\count125
+\c_log_iow=\count126
+\l_iow_line_count_int=\count127
+\l__iow_line_target_int=\count128
+\l__iow_one_indent_int=\count129
+\l__iow_indent_int=\count130
+\c_zero_dim=\dimen141
+\c_max_dim=\dimen142
+\l_tmpa_dim=\dimen143
+\l_tmpb_dim=\dimen144
+\g_tmpa_dim=\dimen145
+\g_tmpb_dim=\dimen146
+\c_zero_skip=\skip92
+\c_max_skip=\skip93
+\l_tmpa_skip=\skip94
+\l_tmpb_skip=\skip95
+\g_tmpa_skip=\skip96
+\g_tmpb_skip=\skip97
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count131
+\c__fp_leading_shift_int=\count132
+\c__fp_middle_shift_int=\count133
+\c__fp_trailing_shift_int=\count134
+\c__fp_big_leading_shift_int=\count135
+\c__fp_big_middle_shift_int=\count136
+\c__fp_big_trailing_shift_int=\count137
+\c__fp_Bigg_leading_shift_int=\count138
+\c__fp_Bigg_middle_shift_int=\count139
+\c__fp_Bigg_trailing_shift_int=\count140
+\c__fp_rand_size_int=\count141
+\c__fp_rand_four_int=\count142
+\c__fp_rand_eight_int=\count143
+\l__sort_length_int=\count144
+\l__sort_min_int=\count145
+\l__sort_top_int=\count146
+\l__sort_max_int=\count147
+\l__sort_true_max_int=\count148
+\l__sort_block_int=\count149
+\l__sort_begin_int=\count150
+\l__sort_end_int=\count151
+\l__sort_A_int=\count152
+\l__sort_B_int=\count153
+\l__sort_C_int=\count154
+\l__tl_build_start_index_int=\count155
+\l__tl_build_index_int=\count156
+\l__tl_analysis_normal_int=\count157
+\l__tl_analysis_index_int=\count158
+\l__tl_analysis_nesting_int=\count159
+\l__tl_analysis_type_int=\count160
+\l__regex_internal_a_int=\count161
+\l__regex_internal_b_int=\count162
+\l__regex_internal_c_int=\count163
+\l__regex_balance_int=\count164
+\l__regex_group_level_int=\count165
+\l__regex_mode_int=\count166
+\c__regex_cs_in_class_mode_int=\count167
+\c__regex_cs_mode_int=\count168
+\l__regex_catcodes_int=\count169
+\l__regex_default_catcodes_int=\count170
+\c__regex_catcode_D_int=\count171
+\c__regex_catcode_S_int=\count172
+\c__regex_catcode_L_int=\count173
+\c__regex_catcode_O_int=\count174
+\c__regex_catcode_A_int=\count175
+\c__regex_all_catcodes_int=\count176
+\l__regex_show_lines_int=\count177
+\l__regex_min_state_int=\count178
+\l__regex_max_state_int=\count179
+\l__regex_left_state_int=\count180
+\l__regex_right_state_int=\count181
+\l__regex_capturing_group_int=\count182
+\l__regex_min_pos_int=\count183
+\l__regex_max_pos_int=\count184
+\l__regex_curr_pos_int=\count185
+\l__regex_start_pos_int=\count186
+\l__regex_success_pos_int=\count187
+\l__regex_curr_char_int=\count188
+\l__regex_curr_catcode_int=\count189
+\l__regex_last_char_int=\count190
+\l__regex_case_changed_char_int=\count191
+\l__regex_curr_state_int=\count192
+\l__regex_step_int=\count193
+\l__regex_min_active_int=\count194
+\l__regex_max_active_int=\count195
+\l__regex_replacement_csnames_int=\count196
+\l__regex_match_count_int=\count197
+\l__regex_min_submatch_int=\count198
+\l__regex_submatch_int=\count199
+\l__regex_zeroth_submatch_int=\count266
+\g__regex_trace_regex_int=\count267
+\c_empty_box=\box37
+\l_tmpa_box=\box38
+\l_tmpb_box=\box39
+\g_tmpa_box=\box40
+\g_tmpb_box=\box41
+\l__box_top_dim=\dimen147
+\l__box_bottom_dim=\dimen148
+\l__box_left_dim=\dimen149
+\l__box_right_dim=\dimen150
+\l__box_top_new_dim=\dimen151
+\l__box_bottom_new_dim=\dimen152
+\l__box_left_new_dim=\dimen153
+\l__box_right_new_dim=\dimen154
+\l__box_internal_box=\box42
+\l__coffin_internal_box=\box43
+\l__coffin_internal_dim=\dimen155
+\l__coffin_offset_x_dim=\dimen156
+\l__coffin_offset_y_dim=\dimen157
+\l__coffin_x_dim=\dimen158
+\l__coffin_y_dim=\dimen159
+\l__coffin_x_prime_dim=\dimen160
+\l__coffin_y_prime_dim=\dimen161
+\c_empty_coffin=\box44
+\l__coffin_aligned_coffin=\box45
+\l__coffin_aligned_internal_coffin=\box46
+\l_tmpa_coffin=\box47
+\l_tmpb_coffin=\box48
+\l__coffin_display_coffin=\box49
+\l__coffin_display_coord_coffin=\box50
+\l__coffin_display_pole_coffin=\box51
+\l__coffin_display_offset_dim=\dimen162
+\l__coffin_display_x_dim=\dimen163
+\l__coffin_display_y_dim=\dimen164
+\l__coffin_bounding_shift_dim=\dimen165
+\l__coffin_left_corner_dim=\dimen166
+\l__coffin_right_corner_dim=\dimen167
+\l__coffin_bottom_corner_dim=\dimen168
+\l__coffin_top_corner_dim=\dimen169
+\l__coffin_scaled_total_height_dim=\dimen170
+\l__coffin_scaled_width_dim=\dimen171
 )
 (c:/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count163
+\l__driver_color_stack_int=\count268
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count164
-\g__xparse_grabber_int=\count165
-\l__xparse_m_args_int=\count166
-\l__xparse_mandatory_args_int=\count167
-\l__xparse_v_nesting_int=\count168
+\l__xparse_current_arg_int=\count269
+\g__xparse_grabber_int=\count270
+\l__xparse_m_args_int=\count271
+\l__xparse_mandatory_args_int=\count272
+\l__xparse_v_nesting_int=\count273
 )
 Package: siunitx 2018-03-20 v2.7m A comprehensive (SI) units package
 
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen133
-))
-(c:/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen134
-\ar@mcellbox=\box41
-\extrarowheight=\dimen135
-\NC@list=\toks17
-\extratabsurround=\skip47
-\backup@length=\skip48
-\ar@cellbox=\box42
-)
 (c:/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box43
-\l__siunitx_tmp_dim=\dimen136
-\l__siunitx_tmp_int=\count169
-\l__siunitx_number_mantissa_length_int=\count170
-\l__siunitx_number_uncert_length_int=\count171
-\l__siunitx_round_int=\count172
-\l__siunitx_process_decimal_int=\count173
-\l__siunitx_process_uncertainty_int=\count174
-\l__siunitx_process_fixed_int=\count175
-\l__siunitx_process_integer_min_int=\count176
-\l__siunitx_process_precision_int=\count177
-\l__siunitx_group_min_int=\count178
-\l__siunitx_angle_marker_box=\box44
-\l__siunitx_angle_unit_box=\box45
-\l__siunitx_angle_marker_dim=\dimen137
-\l__siunitx_angle_unit_dim=\dimen138
-\l__siunitx_unit_int=\count179
-\l__siunitx_unit_denominator_int=\count180
-\l__siunitx_unit_numerator_int=\count181
-\l__siunitx_unit_prefix_int=\count182
-\l__siunitx_unit_prefix_base_int=\count183
-\l__siunitx_unit_prefix_gram_int=\count184
-\l__siunitx_number_product_int=\count185
-\c__siunitx_one_fill_skip=\skip49
-\l__siunitx_table_unit_align_skip=\skip50
-\l__siunitx_table_exponent_dim=\dimen139
-\l__siunitx_table_integer_dim=\dimen140
-\l__siunitx_table_mantissa_dim=\dimen141
-\l__siunitx_table_marker_dim=\dimen142
-\l__siunitx_table_result_dim=\dimen143
-\l__siunitx_table_uncert_dim=\dimen144
-\l__siunitx_table_fill_pre_dim=\dimen145
-\l__siunitx_table_fill_post_dim=\dimen146
-\l__siunitx_table_fill_mid_dim=\dimen147
-\l__siunitx_table_pre_box=\box46
-\l__siunitx_table_post_box=\box47
-\l__siunitx_table_mantissa_box=\box48
-\l__siunitx_table_result_box=\box49
-\l__siunitx_table_number_align_skip=\skip51
-\l__siunitx_table_text_align_skip=\skip52
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen172
+\l__siunitx_tmp_int=\count274
+\l__siunitx_number_mantissa_length_int=\count275
+\l__siunitx_number_uncert_length_int=\count276
+\l__siunitx_round_int=\count277
+\l__siunitx_process_decimal_int=\count278
+\l__siunitx_process_uncertainty_int=\count279
+\l__siunitx_process_fixed_int=\count280
+\l__siunitx_process_integer_min_int=\count281
+\l__siunitx_process_precision_int=\count282
+\l__siunitx_group_min_int=\count283
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen173
+\l__siunitx_angle_unit_dim=\dimen174
+\l__siunitx_unit_int=\count284
+\l__siunitx_unit_denominator_int=\count285
+\l__siunitx_unit_numerator_int=\count286
+\l__siunitx_unit_prefix_int=\count287
+\l__siunitx_unit_prefix_base_int=\count288
+\l__siunitx_unit_prefix_gram_int=\count289
+\l__siunitx_number_product_int=\count290
+\c__siunitx_one_fill_skip=\skip98
+\l__siunitx_table_unit_align_skip=\skip99
+\l__siunitx_table_exponent_dim=\dimen175
+\l__siunitx_table_integer_dim=\dimen176
+\l__siunitx_table_mantissa_dim=\dimen177
+\l__siunitx_table_marker_dim=\dimen178
+\l__siunitx_table_result_dim=\dimen179
+\l__siunitx_table_uncert_dim=\dimen180
+\l__siunitx_table_fill_pre_dim=\dimen181
+\l__siunitx_table_fill_post_dim=\dimen182
+\l__siunitx_table_fill_mid_dim=\dimen183
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
+\l__siunitx_table_number_align_skip=\skip100
+\l__siunitx_table_text_align_skip=\skip101
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -405,205 +729,7 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 
 (c:/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
-)))
-(c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2018/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
-\abovecaptionskip=\skip53
-\belowcaptionskip=\skip54
-\bibindent=\dimen148
-)
-(c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/tabu/tabu.sty
-Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
-
-(c:/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box50
-\sift@deathcycles=\count194
-\@vwid@loff=\dimen149
-\@vwid@roff=\dimen150
-)
-\c@taburow=\count195
-\tabu@nbcols=\count196
-\tabu@cnt=\count197
-\tabu@Xcol=\count198
-\tabu@alloc=\count199
-\tabu@nested=\count266
-\tabu@target=\dimen151
-\tabu@spreadtarget=\dimen152
-\tabu@naturalX=\dimen153
-\tabucolX=\dimen154
-\tabu@Xsum=\dimen155
-\extrarowdepth=\dimen156
-\abovetabulinesep=\dimen157
-\belowtabulinesep=\dimen158
-\tabustrutrule=\dimen159
-\tabu@thebody=\toks19
-\tabu@footnotes=\toks20
-\tabu@box=\box51
-\tabu@arstrutbox=\box52
-\tabu@hleads=\box53
-\tabu@vleads=\box54
-\tabu@cellskip=\skip55
-)
-(c:/texlive/2018/texmf-dist/tex/latex/cjk-ko/kotex.sty
-Package: kotex 2015/04/19 v1.6 Korean TeX (ko.TeX)
-
-(c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/kotex.cfg)
-(c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/kotexutf.sty
-Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
-
-(c:/texlive/2018/texmf-dist/tex/plain/kotex-plain/kotexutf-core.tex
-\unih@ngulpoint=\count267
-\dhucs@emph@raise=\dimen160
-)
-Now handling font encoding LUC ...
-... processing UTF-8 mapping file for font encoding LUC
-
-(c:/texlive/2018/texmf-dist/tex/latex/kotex-utf/lucenc.dfu
-File: lucenc.dfu 2007/09/05 UTF-8 support for dhucs
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+3001 (decimal 12289)
-   defining Unicode char U+3002 (decimal 12290)
-   defining Unicode char U+3008 (decimal 12296)
-   defining Unicode char U+3009 (decimal 12297)
-   defining Unicode char U+300A (decimal 12298)
-   defining Unicode char U+300B (decimal 12299)
-   defining Unicode char U+300C (decimal 12300)
-   defining Unicode char U+300D (decimal 12301)
-   defining Unicode char U+300E (decimal 12302)
-   defining Unicode char U+300F (decimal 12303)
-   defining Unicode char U+3010 (decimal 12304)
-   defining Unicode char U+3011 (decimal 12305)
-   defining Unicode char U+3014 (decimal 12308)
-   defining Unicode char U+3015 (decimal 12309)
-   defining Unicode char U+3016 (decimal 12310)
-   defining Unicode char U+3017 (decimal 12311)
-   defining Unicode char U+3018 (decimal 12312)
-   defining Unicode char U+3019 (decimal 12313)
-   defining Unicode char U+301A (decimal 12314)
-   defining Unicode char U+301B (decimal 12315)
-   defining Unicode char U+FF01 (decimal 65281)
-   defining Unicode char U+FF08 (decimal 65288)
-   defining Unicode char U+FF09 (decimal 65289)
-   defining Unicode char U+FF0C (decimal 65292)
-   defining Unicode char U+FF0E (decimal 65294)
-   defining Unicode char U+FF1A (decimal 65306)
-   defining Unicode char U+FF1B (decimal 65307)
-   defining Unicode char U+FF1C (decimal 65308)
-   defining Unicode char U+FF1D (decimal 65309)
-   defining Unicode char U+FF1E (decimal 65310)
-   defining Unicode char U+FF1F (decimal 65311)
-   defining Unicode char U+FF3B (decimal 65339)
-   defining Unicode char U+FF3D (decimal 65341)
-   defining Unicode char U+FF5B (decimal 65371)
-   defining Unicode char U+FF5D (decimal 65373)
-   defining Unicode char U+FF61 (decimal 65377)
-   defining Unicode char U+FF62 (decimal 65378)
-   defining Unicode char U+FF63 (decimal 65379)
-   defining Unicode char U+FF64 (decimal 65380)
-   defining Unicode char U+FF65 (decimal 65381)
-)
-\@josa=\count268
-\josatoks=\toks21
-
-(c:/texlive/2018/texmf-dist/tex/latex/cjk-ko/kolabels-utf.sty
-Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
-)))
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip56
-
-For additional information on amsmath, use the `?' option.
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen161
-)
-(c:/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count269
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count270
-\leftroot@=\count271
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count272
-\DOTSCASE@=\count273
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
-\big@size=\dimen162
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count274
-\c@MaxMatrixCols=\count275
-\dotsspace@=\muskip16
-\c@parentequation=\count276
-\dspbrk@lvl=\count277
-\tag@help=\toks22
-\row@=\count278
-\column@=\count279
-\maxfields@=\count280
-\andhelp@=\toks23
-\eqnshift@=\dimen163
-\alignsep@=\dimen164
-\tagshift@=\dimen165
-\tagwidth@=\dimen166
-\totwidth@=\dimen167
-\lineht@=\dimen168
-\@envbody=\toks24
-\multlinegap=\skip57
-\multlinetaggap=\skip58
-\mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(c:/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
-)
 (c:/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -621,29 +747,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(c:/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 (c:/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks26
-\thm@bodyfont=\toks27
-\thm@headfont=\toks28
-\thm@notefont=\toks29
-\thm@headpunct=\toks30
-\thm@preskip=\skip59
-\thm@postskip=\skip60
-\thm@headsep=\skip61
-\dth@everypar=\toks31
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
+\thm@preskip=\skip102
+\thm@postskip=\skip103
+\thm@headsep=\skip104
+\dth@everypar=\toks34
 )
-LaTeX Info: Redefining \textgt on input line 80.
+LaTeX Info: Redefining \textgt on input line 132.
 
 (c:/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
@@ -655,301 +771,26 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(c:/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen184
+\Gm@wd@mp=\dimen185
+\Gm@odd@mp=\dimen186
+\Gm@even@mp=\dimen187
+\Gm@layoutwidth=\dimen188
+\Gm@layoutheight=\dimen189
+\Gm@layouthoffset=\dimen190
+\Gm@layoutvoffset=\dimen191
+\Gm@dimlist=\toks35
 )
-\Gm@cnth=\count281
-\Gm@cntv=\count282
-\c@Gm@tempcnt=\count283
-\Gm@bindingoffset=\dimen171
-\Gm@wd@mp=\dimen172
-\Gm@odd@mp=\dimen173
-\Gm@even@mp=\dimen174
-\Gm@layoutwidth=\dimen175
-\Gm@layoutheight=\dimen176
-\Gm@layouthoffset=\dimen177
-\Gm@layoutvoffset=\dimen178
-\Gm@dimlist=\toks32
+\mylenfig=\skip105
+\mylentab=\skip106
 )
-(c:/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-
-! LaTeX Error: \cftsecleader undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.315 \renewcommand{\cftsecleader}
-                                  {\cftdotfill{\cftdotsep}}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cfttoctitlefont undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.316 \renewcommand{\cfttoctitlefont}
-                                     {\hspace*{\fill}\huge\bfseries}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftaftertoctitle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.317 \renewcommand{\cftaftertoctitle}
-                                      {\hspace*{\fill}}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftlottitlefont undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.318 \renewcommand{\cftlottitlefont}
-                                     {\hspace*{\fill}\huge\bfseries}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftafterlottitle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.319 \renewcommand{\cftafterlottitle}
-                                      {\hspace*{\fill}}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftloftitlefont undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.320 \renewcommand{\cftloftitlefont}
-                                     {\hspace*{\fill}\huge\bfseries}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftafterloftitle undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.321 \renewcommand{\cftafterloftitle}
-                                      {\hspace*{\fill}}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-\mylenfig=\skip62
-\mylentab=\skip63
-
-! LaTeX Error: \cftfigpresnum undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.329 \renewcommand{\cftfigpresnum}
-                                   {\textbf{\figurename}\enspace}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cfttabpresnum undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 \renewcommand{\cfttabpresnum}
-                                   {\textbf{\tablename}\enspace}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftfigfont undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.331 \renewcommand{\cftfigfont}
-                                {\bfseries}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cfttabfont undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.332 \renewcommand{\cfttabfont}
-                                {\bfseries}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftfigaftersnum undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.333 \renewcommand{\cftfigaftersnum}
-                                     {.}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cfttabaftersnum undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.334 \renewcommand{\cfttabaftersnum}
-                                     {.}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cftfigaftersnumb undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.335 \renewcommand{\cftfigaftersnumb}
-                                      {\normalfont}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \cfttabaftersnumb undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 \renewcommand{\cfttabaftersnumb}
-                                      {\normalfont}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<argument> \cftfignumwidth 
-                           
-l.339 \addtolength{\cftfignumwidth}{\mylenfig}
-                                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `blank space  ' after \advance.
-\addtolength #1#2->\advance #1 
-                               #2\relax 
-l.339 \addtolength{\cftfignumwidth}{\mylenfig}
-                                              
-I'm forgetting what you said and not changing anything.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.339 \addtolength{\cftfignumwidth}{\mylenfig}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.339 \addtolength{\cftfignumwidth}{\mylenfig}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-<argument> \cfttabnumwidth 
-                           
-l.340 \addtolength{\cfttabnumwidth}{\mylentab}
-                                              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! You can't use `blank space  ' after \advance.
-\addtolength #1#2->\advance #1 
-                               #2\relax 
-l.340 \addtolength{\cfttabnumwidth}{\mylentab}
-                                              
-I'm forgetting what you said and not changing anything.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.340 \addtolength{\cfttabnumwidth}{\mylentab}
-                                              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.340 \addtolength{\cfttabnumwidth}{\mylentab}
-                                              
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-(c:/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box57
-\beforetitleunit=\skip64
-\aftertitleunit=\skip65
-\ttl@plus=\dimen179
-\ttl@minus=\dimen180
-\ttl@toksa=\toks33
-\titlewidth=\dimen181
-\titlewidthlast=\dimen182
-\titlewidthfirst=\dimen183
-))
 (c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks36
+\verbatim@line=\toks37
 \verbatim@in@stream=\read2
 )
 (c:/texlive/2018/texmf-dist/tex/latex/spverbatim/spverbatim.sty
@@ -959,13 +800,13 @@ Package: spverbatim 2009/08/10 v1.0 Verbatim with breakable spaces
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks36
-\pgfutil@tempdima=\dimen184
-\pgfutil@tempdimb=\dimen185
+\pgfutil@everybye=\toks38
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
 ) (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box58
+\pgfutil@abb=\box59
 
 (c:/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -981,29 +822,29 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks41
 ))
-\pgf@x=\dimen186
-\pgf@y=\dimen187
-\pgf@xa=\dimen188
-\pgf@ya=\dimen189
-\pgf@xb=\dimen190
-\pgf@yb=\dimen191
-\pgf@xc=\dimen192
-\pgf@yc=\dimen193
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count284
-\c@pgf@countb=\count285
-\c@pgf@countc=\count286
-\c@pgf@countd=\count287
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
+\c@pgf@counta=\count294
+\c@pgf@countb=\count295
+\c@pgf@countc=\count296
+\c@pgf@countd=\count297
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
  (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -1017,8 +858,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count288
-\pgfsyssoftpath@bigbuffer@items=\count289
+\pgfsyssoftpath@smallbuffer@items=\count298
+\pgfsyssoftpath@bigbuffer@items=\count299
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -1029,12 +870,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen194
-\pgfmath@count=\count290
-\pgfmath@box=\box59
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@dimen=\dimen258
+\pgfmath@count=\count300
+\pgfmath@box=\box60
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
@@ -1054,55 +895,55 @@ x)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
 etics.code.tex)))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count291
+\c@pgfmathroundto@lastzeros=\count301
 ))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen195
-\pgf@picmaxx=\dimen196
-\pgf@picminy=\dimen197
-\pgf@picmaxy=\dimen198
-\pgf@pathminx=\dimen199
-\pgf@pathmaxx=\dimen256
-\pgf@pathminy=\dimen257
-\pgf@pathmaxy=\dimen258
-\pgf@xx=\dimen259
-\pgf@xy=\dimen260
-\pgf@yx=\dimen261
-\pgf@yy=\dimen262
-\pgf@zx=\dimen263
-\pgf@zy=\dimen264
+\pgf@picminx=\dimen259
+\pgf@picmaxx=\dimen260
+\pgf@picminy=\dimen261
+\pgf@picmaxy=\dimen262
+\pgf@pathminx=\dimen263
+\pgf@pathmaxx=\dimen264
+\pgf@pathminy=\dimen265
+\pgf@pathmaxy=\dimen266
+\pgf@xx=\dimen267
+\pgf@xy=\dimen268
+\pgf@yx=\dimen269
+\pgf@yy=\dimen270
+\pgf@zx=\dimen271
+\pgf@zy=\dimen272
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen265
-\pgf@path@lasty=\dimen266
+\pgf@path@lastx=\dimen273
+\pgf@path@lasty=\dimen274
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen267
-\pgf@shorten@start@additional=\dimen268
+\pgf@shorten@end@additional=\dimen275
+\pgf@shorten@start@additional=\dimen276
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box60
-\pgf@hbox=\box61
-\pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count292
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count302
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen269
+\pgflinewidth=\dimen277
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen270
-\pgf@pt@y=\dimen271
-\pgf@pt@temp=\dimen272
+\pgf@pt@x=\dimen278
+\pgf@pt@y=\dimen279
+\pgf@pt@temp=\dimen280
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1116,19 +957,19 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen273
+\pgfarrowsep=\dimen281
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen274
-\pgf@sys@shading@range@num=\count293
+\pgf@max=\dimen282
+\pgf@sys@shading@range@num=\count303
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box63
+\pgfexternal@startupbox=\box64
 ))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
@@ -1142,7 +983,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box64
+\pgfnodeparttextbox=\box65
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
@@ -1150,8 +991,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen275
-\pgf@nodesepend=\dimen276
+\pgf@nodesepstart=\dimen283
+\pgf@nodesepend=\dimen284
 )
 (c:/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -1165,10 +1006,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen277
-\pgffor@skip=\dimen278
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen285
+\pgffor@skip=\dimen286
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 ))
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1176,96 +1017,96 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count294
-\pgfplotmarksize=\dimen279
+\pgf@plot@mark@count=\count304
+\pgfplotmarksize=\dimen287
 )
-\tikz@lastx=\dimen280
-\tikz@lasty=\dimen281
-\tikz@lastxsaved=\dimen282
-\tikz@lastysaved=\dimen283
-\tikzleveldistance=\dimen284
-\tikzsiblingdistance=\dimen285
-\tikz@figbox=\box65
-\tikz@figbox@bg=\box66
-\tikz@tempbox=\box67
-\tikz@tempbox@bg=\box68
-\tikztreelevel=\count295
-\tikznumberofchildren=\count296
-\tikznumberofcurrentchild=\count297
-\tikz@fig@count=\count298
+\tikz@lastx=\dimen288
+\tikz@lasty=\dimen289
+\tikz@lastxsaved=\dimen290
+\tikz@lastysaved=\dimen291
+\tikzleveldistance=\dimen292
+\tikzsiblingdistance=\dimen293
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count305
+\tikznumberofchildren=\count306
+\tikznumberofcurrentchild=\count307
+\tikz@fig@count=\count308
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count299
-\pgfmatrixcurrentcolumn=\count300
-\pgf@matrix@numberofcolumns=\count301
+\pgfmatrixcurrentrow=\count309
+\pgfmatrixcurrentcolumn=\count310
+\pgf@matrix@numberofcolumns=\count311
 )
-\tikz@expandcount=\count302
+\tikz@expandcount=\count312
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (c:/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count303
-\float@exts=\toks48
-\float@box=\box69
-\@float@everytoks=\toks49
-\@floatcapt=\box70
+\c@float@type=\count313
+\float@exts=\toks50
+\float@box=\box70
+\@float@everytoks=\toks51
+\@floatcapt=\box71
 ) (c:/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-\TX@col@width=\dimen286
-\TX@old@table=\dimen287
-\TX@old@col=\dimen288
-\TX@target=\dimen289
-\TX@delta=\dimen290
-\TX@cols=\count304
-\TX@ftn=\toks50
+\TX@col@width=\dimen294
+\TX@old@table=\dimen295
+\TX@old@col=\dimen296
+\TX@target=\dimen297
+\TX@delta=\dimen298
+\TX@cols=\count314
+\TX@ftn=\toks52
 )
 (c:/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip66
-\multirow@cntb=\count305
-\multirow@dima=\skip67
-\bigstrutjot=\dimen291
+\multirow@colwidth=\skip107
+\multirow@cntb=\count315
+\multirow@dima=\skip108
+\bigstrutjot=\dimen299
 )
 (c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen292
-\lightrulewidth=\dimen293
-\cmidrulewidth=\dimen294
-\belowrulesep=\dimen295
-\belowbottomsep=\dimen296
-\aboverulesep=\dimen297
-\abovetopsep=\dimen298
-\cmidrulesep=\dimen299
-\cmidrulekern=\dimen300
-\defaultaddspace=\dimen301
-\@cmidla=\count306
-\@cmidlb=\count307
-\@aboverulesep=\dimen302
-\@belowrulesep=\dimen303
-\@thisruleclass=\count308
-\@lastruleclass=\count309
-\@thisrulewidth=\dimen304
+\heavyrulewidth=\dimen300
+\lightrulewidth=\dimen301
+\cmidrulewidth=\dimen302
+\belowrulesep=\dimen303
+\belowbottomsep=\dimen304
+\aboverulesep=\dimen305
+\abovetopsep=\dimen306
+\cmidrulesep=\dimen307
+\cmidrulekern=\dimen308
+\defaultaddspace=\dimen309
+\@cmidla=\count316
+\@cmidlb=\count317
+\@aboverulesep=\dimen310
+\@belowrulesep=\dimen311
+\@thisruleclass=\count318
+\@lastruleclass=\count319
+\@thisrulewidth=\dimen312
 )
 (c:/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count310
-\LTcapwidth=\dimen305
-\LT@head=\box71
-\LT@firsthead=\box72
-\LT@foot=\box73
-\LT@lastfoot=\box74
-\LT@cols=\count311
-\LT@rows=\count312
-\c@LT@tables=\count313
-\c@LT@chunks=\count314
-\LT@p@ftn=\toks51
+\LTleft=\skip109
+\LTright=\skip110
+\LTpre=\skip111
+\LTpost=\skip112
+\LTchunksize=\count320
+\LTcapwidth=\dimen313
+\LT@head=\box72
+\LT@firsthead=\box73
+\LT@foot=\box74
+\LT@lastfoot=\box75
+\LT@cols=\count321
+\LT@rows=\count322
+\c@LT@tables=\count323
+\c@LT@chunks=\count324
+\LT@p@ftn=\toks53
 )
 (c:/texlive/2018/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
@@ -1276,12 +1117,12 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks52
-\t@pgfplots@tokb=\toks53
-\t@pgfplots@tokc=\toks54
-\pgfplots@tmpa=\dimen306
-\c@pgfplots@coordindex=\count315
-\c@pgfplots@scanlineindex=\count316
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen314
+\c@pgfplots@coordindex=\count325
+\c@pgfplots@scanlineindex=\count326
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
 x))
@@ -1296,7 +1137,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 upp_pgflibraryfpu.code.tex)
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count317
+\c@pgfmathroundto@lastzeros=\count327
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
 upp_leq.code.tex))
@@ -1307,14 +1148,14 @@ cture.code.tex)
 ctureext.code.tex)
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
 de.tex
-\c@pgfplotsarray@tmp=\count318
+\c@pgfplotsarray@tmp=\count328
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
 ode.tex)
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
 ode.tex
-\c@pgfplotstable@counta=\count319
-\t@pgfplotstable@a=\toks55
+\c@pgfplotstable@counta=\count329
+\t@pgfplotstable@a=\toks57
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
 de.tex)
@@ -1325,7 +1166,7 @@ tex))
 x)
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
 ading.code.tex
-\c@pgfplotslibrarysurf@no=\count320
+\c@pgfplotslibrarysurf@no=\count330
 
 (c:/texlive/2018/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-pdftex.def)))
@@ -1348,16 +1189,16 @@ ex)
 brarydecorations.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
-\pgfdecoratedcompleteddistance=\dimen307
-\pgfdecoratedremainingdistance=\dimen308
-\pgfdecoratedinputsegmentcompleteddistance=\dimen309
-\pgfdecoratedinputsegmentremainingdistance=\dimen310
-\pgf@decorate@distancetomove=\dimen311
-\pgf@decorate@repeatstate=\count321
-\pgfdecorationsegmentamplitude=\dimen312
-\pgfdecorationsegmentlength=\dimen313
+\pgfdecoratedcompleteddistance=\dimen315
+\pgfdecoratedremainingdistance=\dimen316
+\pgfdecoratedinputsegmentcompleteddistance=\dimen317
+\pgfdecoratedinputsegmentremainingdistance=\dimen318
+\pgf@decorate@distancetomove=\dimen319
+\pgf@decorate@repeatstate=\count331
+\pgfdecorationsegmentamplitude=\dimen320
+\pgfdecorationsegmentlength=\dimen321
 )
-\tikz@lib@dec@box=\box75
+\tikz@lib@dec@box=\box76
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.pathmorphing.code.tex
@@ -1367,13 +1208,13 @@ orations.pathmorphing.code.tex))
 brarydecorations.pathreplacing.code.tex
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.pathreplacing.code.tex))
-\pgfplots@numplots=\count322
-\pgfplots@xmin@reg=\dimen314
-\pgfplots@xmax@reg=\dimen315
-\pgfplots@ymin@reg=\dimen316
-\pgfplots@ymax@reg=\dimen317
-\pgfplots@zmin@reg=\dimen318
-\pgfplots@zmax@reg=\dimen319
+\pgfplots@numplots=\count332
+\pgfplots@xmin@reg=\dimen322
+\pgfplots@xmax@reg=\dimen323
+\pgfplots@ymin@reg=\dimen324
+\pgfplots@ymax@reg=\dimen325
+\pgfplots@zmin@reg=\dimen326
+\pgfplots@zmax@reg=\dimen327
 )
 (c:/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryplotmarks.code.tex
@@ -1434,46 +1275,46 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 ultipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box76
-\pgfnodeparttwobox=\box77
-\pgfnodepartthreebox=\box78
-\pgfnodepartfourbox=\box79
-\pgfnodeparttwentybox=\box80
-\pgfnodepartnineteenbox=\box81
-\pgfnodeparteighteenbox=\box82
-\pgfnodepartseventeenbox=\box83
-\pgfnodepartsixteenbox=\box84
-\pgfnodepartfifteenbox=\box85
-\pgfnodepartfourteenbox=\box86
-\pgfnodepartthirteenbox=\box87
-\pgfnodeparttwelvebox=\box88
-\pgfnodepartelevenbox=\box89
-\pgfnodeparttenbox=\box90
-\pgfnodepartninebox=\box91
-\pgfnodeparteightbox=\box92
-\pgfnodepartsevenbox=\box93
-\pgfnodepartsixbox=\box94
-\pgfnodepartfivebox=\box95
+\pgfnodepartlowerbox=\box77
+\pgfnodeparttwobox=\box78
+\pgfnodepartthreebox=\box79
+\pgfnodepartfourbox=\box80
+\pgfnodeparttwentybox=\box81
+\pgfnodepartnineteenbox=\box82
+\pgfnodeparteighteenbox=\box83
+\pgfnodepartseventeenbox=\box84
+\pgfnodepartsixteenbox=\box85
+\pgfnodepartfifteenbox=\box86
+\pgfnodepartfourteenbox=\box87
+\pgfnodepartthirteenbox=\box88
+\pgfnodeparttwelvebox=\box89
+\pgfnodepartelevenbox=\box90
+\pgfnodeparttenbox=\box91
+\pgfnodepartninebox=\box92
+\pgfnodeparteightbox=\box93
+\pgfnodepartsevenbox=\box94
+\pgfnodepartsixbox=\box95
+\pgfnodepartfivebox=\box96
 )))
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count323
-\lst@gtempboxa=\box96
-\lst@token=\toks56
-\lst@length=\count324
-\lst@currlwidth=\dimen320
-\lst@column=\count325
-\lst@pos=\count326
-\lst@lostspace=\dimen321
-\lst@width=\dimen322
-\lst@newlines=\count327
-\lst@lineno=\count328
-\lst@maxwidth=\dimen323
+\lst@mode=\count333
+\lst@gtempboxa=\box97
+\lst@token=\toks58
+\lst@length=\count334
+\lst@currlwidth=\dimen328
+\lst@column=\count335
+\lst@pos=\count336
+\lst@lostspace=\dimen329
+\lst@width=\dimen330
+\lst@newlines=\count337
+\lst@lineno=\count338
+\lst@maxwidth=\dimen331
 
 (c:/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count329
-\lst@skipnumbers=\count330
-\lst@framebox=\box97
+\c@lstnumber=\count339
+\lst@skipnumbers=\count340
+\lst@framebox=\box98
 )
 (c:/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -1517,17 +1358,12 @@ Package pdftexcmds Info: \pdfdraftmode found.
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen324
-\c@nlinenum=\count331
-\TeXr@lab=\toks57
+\rotheadsize=\dimen332
+\c@nlinenum=\count341
+\TeXr@lab=\toks59
 ))
-\c@definition=\count332
+\c@definition=\count342
 
-(c:/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-)
 (c:/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -1685,308 +1521,58 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(c:/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
-Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip72
-\cftbeforetoctitleskip=\skip73
-\cftaftertoctitleskip=\skip74
 
+LaTeX Warning: Unused global option(s):
+    [pdftex].
 
-! LaTeX Error: Command \cfttoctitlefont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 ...toctitlefont}{\normalfont\Large\bfseries}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cftaftertoctitle already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.165 \newcommand{\cftaftertoctitle}{}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\cftbeforepartskip=\skip75
-\cftpartnumwidth=\skip76
-\cftpartindent=\skip77
-\cftbeforesecskip=\skip78
-\cftsecindent=\skip79
-\cftsecnumwidth=\skip80
-
-! LaTeX Error: Command \cftsecleader already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.347 ...der}{\bfseries\cftdotfill{\cftsecdotsep}}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\cftbeforesubsecskip=\skip81
-\cftsubsecindent=\skip82
-\cftsubsecnumwidth=\skip83
-\cftbeforesubsubsecskip=\skip84
-\cftsubsubsecindent=\skip85
-\cftsubsubsecnumwidth=\skip86
-\cftbeforeparaskip=\skip87
-\cftparaindent=\skip88
-\cftparanumwidth=\skip89
-\cftbeforesubparaskip=\skip90
-\cftsubparaindent=\skip91
-\cftsubparanumwidth=\skip92
-\cftbeforeloftitleskip=\skip93
-\cftafterloftitleskip=\skip94
-
-! LaTeX Error: Command \cftloftitlefont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.572 ...loftitlefont}{\normalfont\Large\bfseries}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cftafterloftitle already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \newcommand{\cftafterloftitle}{}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\cftbeforefigskip=\skip95
-\cftfigindent=\skip96
-\cftfignumwidth=\skip97
-
-! LaTeX Error: Command \cftfigfont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.601 \newcommand{\cftfigfont}{\normalfont}
-                                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cftfigpresnum already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.602 \newcommand{\cftfigpresnum}{}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cftfigaftersnum already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.603 \newcommand{\cftfigaftersnum}{}
-                                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cftfigaftersnumb already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.604 \newcommand{\cftfigaftersnumb}{}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\c@lofdepth=\count333
-\c@lotdepth=\count334
-\cftbeforelottitleskip=\skip98
-\cftafterlottitleskip=\skip99
-
-! LaTeX Error: Command \cftlottitlefont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.674 ...lottitlefont}{\normalfont\Large\bfseries}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cftafterlottitle already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.677 \newcommand{\cftafterlottitle}{}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\cftbeforetabskip=\skip100
-\cfttabindent=\skip101
-\cfttabnumwidth=\skip102
-
-! LaTeX Error: Command \cfttabfont already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.703 \newcommand{\cfttabfont}{\normalfont}
-                                           
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cfttabpresnum already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.704 \newcommand{\cfttabpresnum}{}
-                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cfttabaftersnum already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.705 \newcommand{\cfttabaftersnum}{}
-                                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \cfttabaftersnumb already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.706 \newcommand{\cfttabaftersnumb}{}
-                                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./report-1800818100.aux (./sub/abstract.aux) (./sub/body1.aux))
+(./report-1800818100.aux (./sub/abstract.aux) (./sub/body1.aux))
 \openout1 = `report-1800818100.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 17.
 LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 
-16.
+17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
-glish.dict
-Dictionary: translator-basic-dictionary, Language: English 
-)
-(c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
-)
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen325
-\scratchbox=\box98
-\nofMPsegments=\count336
-\nofMParguments=\count337
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen326
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count343
+\scratchdimen=\dimen333
+\scratchbox=\box99
+\nofMPsegments=\count344
+\nofMParguments=\count345
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count346
+\MPscratchDim=\dimen334
+\MPnumerator=\count347
+\makeMPintoPDFobject=\count348
+\everyMPtoPDFconversion=\toks61
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2007,6 +1593,23 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(c:/texlive/2018/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(c:/texlive/2018/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
+glish.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(c:/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -2015,23 +1618,23 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=674.33032pt
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=624.25346pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -2044,56 +1647,56 @@ e
 ABD: EveryShipout initializing macros
 \symgns@font=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 16.
-Package gensymb Info: Math companion symbols declared on input line 16.
-LaTeX Info: Redefining \degree on input line 16.
-LaTeX Info: Redefining \celsius on input line 16.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 17.
+Package gensymb Info: Math companion symbols declared on input line 17.
+LaTeX Info: Redefining \degree on input line 17.
+LaTeX Info: Redefining \celsius on input line 17.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 16.
-LaTeX Info: Redefining \ohm on input line 16.
-Package gensymb Info: Using \textohm for \ohm on input line 16.
-LaTeX Info: Redefining \micro on input line 16.
-Package gensymb Info: Using \textmu for \micro on input line 16.
+erthousand on input line 17.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \textohm for \ohm on input line 17.
+LaTeX Info: Redefining \micro on input line 17.
+Package gensymb Info: Using \textmu for \micro on input line 17.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-\c@lstlisting=\count341
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
+\c@lstlisting=\count349
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 17
 .
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 17
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 17
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 17
 .
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 16.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 17.
 
 (c:/texlive/2018/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -2122,10 +1725,10 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
 
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
  (./report-1800818100.toc
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 )
 \tf@toc=\write4
@@ -2141,12 +1744,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
  [2
 
 
-] (./report-1800818100.lot
-Overfull \hbox (16.21729pt too wide) detected at line 1
-\T1/ptm/b/n/12 Table1. 
- []
-
-)
+] (./report-1800818100.lot)
 \tf@lot=\write6
 \openout6 = `report-1800818100.lot'.
 
@@ -2167,19 +1765,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 36.
-! Undefined control sequence.
-\abstracts ...ng}{1.0}\LARGE \bfseries \@engtitle 
-                                                  \end {spacing}} \end {cent...
-l.36 \begin{abstracts}
-                           %this creates the heading for the abstract page
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 ! LaTeX Error: \begin{abstracts} on input line 36 ended by \end{alwayssingle}.
 
@@ -2229,156 +1816,122 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \end{abstractskor}
+l.51 \end{abstractskor}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5
+) [5
 
 
-])
+]
 \openout2 = `sub/body1.aux'.
 
  (./sub/body1.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
  [1
 
 
 
 
-] [2]
+]
 
-LaTeX Warning: Citation `HerschelFurlan' on page 3 undefined on input line 19.
-
-
-LaTeX Warning: Citation `HerschelFurlan' on page 3 undefined on input line 21.
+LaTeX Warning: Citation `bontemps1996evolution' on page 2 undefined on input li
+ne 17.
 
 
-LaTeX Warning: Citation `HerschelFurlan' on page 3 undefined on input line 23.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Aso' on page 3 undefined on input line 25.
-
-
-LaTeX Warning: Citation `HerschelFurlan' on page 3 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Aso' on page 3 undefined on input line 27.
-
-
-LaTeX Warning: Citation `HerschelFurlan' on page 3 undefined on input line 27.
-
-
-LaTeX Warning: Citation `Aso' on page 3 undefined on input line 29.
-
-
-LaTeX Warning: Citation `HerschelFurlan' on page 3 undefined on input line 29.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-
- []
-
-[3
-
-] [4]
-
-LaTeX Warning: Reference `FCO' on page 5 undefined on input line 66.
+LaTeX Warning: Citation `megeath2012spitzer' on page 2 undefined on input line 
+48.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--27
+Underfull \hbox (badness 10000) in paragraph at lines 48--35
 
  []
 
-[5
-
-] (./report-1800818100.bbl) (./report-1800818100.aux (./sub/abstract.aux)
+[2] [3] (./report-1800818100.bbl) (./report-1800818100.aux (./sub/abstract.aux)
 (./sub/body1.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 40017 strings out of 492649
- 944806 string characters out of 6133384
- 1091633 words of memory out of 5000000
- 43167 multiletter control sequences out of 15000+600000
- 610599 words of font info for 187 fonts, out of 8000000 for 9000
+ 41998 strings out of 492649
+ 977177 string characters out of 6133384
+ 1124232 words of memory out of 5000000
+ 45130 multiletter control sequences out of 15000+600000
+ 606780 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,12n,138p,10503b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texm
 f-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
-numtype1/nanumgtbac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
-e1/nanumgtbad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
-umgtbae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbb
-4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbbc.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc1.pfb><c:/te
-xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc9.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbcd.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/public/nanumtype1/nanumgtbd5.pfb><c:/texlive/2018/texmf-d
-ist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2018/texmf-dist/fonts/ty
-pe1/public/nanumtype1/nanummjbae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/nanumtype1/nanummjbb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
-anumtype1/nanummjbb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
-pe1/nanummjbba.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
-nummjbbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjb
-bd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc1.pfb
-><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb><c:/t
-exlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb><c:/texlive
-/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texlive/2018/texmf-dist/f
-onts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/p
-ublic/nanumtype1/nanummjmae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/
-nanumtype1/nanummjmb0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumt
-ype1/nanummjmb1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/n
-anummjmb2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummj
-mb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb4.pf
-b><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb5.pfb><c:/
-texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb6.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><c:/texlive/2018/texmf
--dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/texlive/2018/texmf-dist/
-fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/nanumtype1/nanummjmbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
-/nanumtype1/nanummjmbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
-type1/nanummjmbe.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
-nanummjmc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumm
-jmc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.p
-fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc3.pfb><c:
-/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc4.pfb><c:/texli
-ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb><c:/texlive/201
-8/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb><c:/texlive/2018/texm
-f-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/texlive/2018/texmf-dist
-/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/2018/texmf-dist/fonts
-/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2018/texmf-dist/fonts/type1
-/public/nanumtype1/nanummjmca.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
-c/nanumtype1/nanummjmcc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
-mtype1/nanummjmcd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
-/nanummjmce.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
-mjmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd1.
-pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb><c
-:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb><c:/texl
-ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd4.pfb><c:/texlive/20
-18/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb><c:/texlive/2018/texmf-dis
-t/fonts/type1/public/nanumtype1/nanummjmd7.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/ur
-w/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/t
-exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report-1800818100.pdf (11 pages, 2505660 bytes).
+ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
+public/nanumtype1/nanumgtbac.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/nanumtype1/nanumgtbad.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanum
+type1/nanumgtbae.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/
+nanumgtbb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumg
+tbbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbc1.p
+fb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbcd.pfb><c:
+/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanumgtbd5.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb><c:/texlive/201
+8/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb><c:/texlive/2018/texm
+f-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb><c:/texlive/2018/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjbb4.pfb><c:/texlive/2018/texmf-dist/fonts
+/type1/public/nanumtype1/nanummjbb8.pfb><c:/texlive/2018/texmf-dist/fonts/type1
+/public/nanumtype1/nanummjbb9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/nanumtype1/nanummjbbc.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanu
+mtype1/nanummjbbd.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1
+/nanummjbc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanum
+mjbc6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb><c
+:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb><c:/texl
+ive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb><c:/texlive/20
+18/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb><c:/texlive/2018/tex
+mf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/nanumtype1/nanummjmb0.pfb><c:/texlive/2018/texmf-dist/font
+s/type1/public/nanumtype1/nanummjmb1.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/nanumtype1/nanummjmb2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publ
+ic/nanumtype1/nanummjmb3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nan
+umtype1/nanummjmb4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype
+1/nanummjmb5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanu
+mmjmb6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb><
+c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb><c:/tex
+live/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb><c:/texlive/2
+018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb><c:/texlive/2018/te
+xmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb><c:/texlive/2018/texmf-di
+st/fonts/type1/public/nanumtype1/nanummjmbd.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/nanumtype1/nanummjmbe.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/nanumtype1/nanummjmc0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
+lic/nanumtype1/nanummjmc1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/na
+numtype1/nanummjmc2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtyp
+e1/nanummjmc3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nan
+ummjmc4.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc
+5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb>
+<c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc8.pfb><c:/texlive/
+2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb><c:/texlive/2018/t
+exmf-dist/fonts/type1/public/nanumtype1/nanummjmcc.pfb><c:/texlive/2018/texmf-d
+ist/fonts/type1/public/nanumtype1/nanummjmcd.pfb><c:/texlive/2018/texmf-dist/fo
+nts/type1/public/nanumtype1/nanummjmce.pfb><c:/texlive/2018/texmf-dist/fonts/ty
+pe1/public/nanumtype1/nanummjmd0.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
+blic/nanumtype1/nanummjmd1.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/n
+anumtype1/nanummjmd2.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumty
+pe1/nanummjmd3.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/na
+nummjmd5.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjm
+d6.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb
+><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texli
+ve/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report-1800818100.pdf (9 pages, 2399966 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
+ 301 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

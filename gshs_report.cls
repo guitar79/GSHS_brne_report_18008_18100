@@ -1,13 +1,17 @@
 % -*- TeX:UTF-8 -*-
-
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{gshs-report-v1.2}[2016/06/10 v.1.21]%
-%[2014/09/02 v0.1 Standard GSHS report document class, ko.TeX version] % initiated by 정민석(2014년도 경기과학고 수학과 전문교원)
-% [2015/11/22 v0.11 Standard GSHS report document class, ko.TeX version] % modified by 박승원(32nd, 14041, seungwonpark) 
+\ProvidesClass{gshs_report}
+%[2018/07/29 v.1.30]
+% [2014/09/02 v0.1 Standard GSHS report document class, ko.TeX version] 
+% initiated by 정민석(2014년도 경기과학고 수학과 전문교원)
+% [2015/11/22 v0.11 Standard GSHS report document class, ko.TeX version] 
+% modified by 박승원(32nd, 14041, seungwonpark) 
 % 변경사항 : Figure를 Fig. 로 변경, References 를 '참고문헌'으로 변경, figure/table numbering 의 chapter 넘어갈때마다 문제생기는점 해결, SI 단위계 사용 가능하게 함
-%[2015/11/25 v0.12 Standard GSHS report document class, ko.TeX version] % modified by 이상헌(32nd, 14080, evenharder) 
+% [2015/11/25 v0.12 Standard GSHS report document class, ko.TeX version] 
+% modified by 이상헌(32nd, 14080, evenharder) 
 % 변경사항 : 심화 R&E 보고서에 지도교수의 이름을 표지에 추가해주는 \professor 구문 추가 및 fifthe 관련 오타 수정
-%[2016/02/07 v0.13 Standard GSHS report document class, ko.TeX version] % modified by 박승원(32nd, 14041, seungwonpark)
+% [2016/02/07 v0.13 Standard GSHS report document class, ko.TeX version] 
+% modified by 박승원(32nd, 14041, seungwonpark)
 % 변경사항 : 
 
 % 인코딩 관련 주의사항 : 이 클래스에서 기본적으로 kotex을 포함하고 있기에 따로 포함할 필요는 없으나, inputenc 등의 추가적인 class 사용이나 TeXstudio의 'Insert encoding as TeX comment'는 삼가시기 바랍니다.
@@ -15,15 +19,66 @@
 %% 그림과 표의 번호가 chapter를 넘어가도 초기화되지 않도록 설정. sample report 파일에 \counterwithout{figure}{chapter}가 포함됨
 %\usepackage{chngcntr} % figure numbering across chapters continously
 
-%[2016/06/02 v1.2 Standard GSHS report document class] % modified by 서울(경기과학고 물리교사), 박승원(32nd, 14041, seungwonpark)
+%[2016/06/02 v1.2 Standard GSHS report document class] 
+% modified by 서울(경기과학고 물리교사), 박승원(32nd, 14041, seungwonpark)
 % 변경사항(서울) : 표지의 폰트 및 vskip 간격 일부 수정, 지도교사/교수 이메일란 추가.
 % 변경사항(박승원) : reporttype 를 통해 중간/결과 를 선택 가능하게 함, section formatting 수정 (section 계층 번호부여를 arabic 대신 roman 으로 수정)
+\usepackage{ifxetex} % 부득이하게 pdflatex을 사용해도 문제가 없도록 함
 
+\ifxetex
+\LoadClass[11pt]{article}
+\else
+\usepackage[nonfrench]{kotex}
+\LoadClass[pdftex, 11pt]{article}
+\fi 
 
-% 영어 Font : Times New Roman
+%\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{fancyhdr}
+\usepackage[nottoc]{tocbibind}
+\usepackage{titlesec}
+\usepackage{cite}   % citation [1,2,3] --> [1-3]
+\usepackage{tocloft}
+\usepackage[toc,page]{appendix}
+
+\ifxetex
+\else
 \usepackage[T1]{fontenc}   % To use Times New Roman
 \usepackage[utf8]{inputenc}% To use Times New Roman
+\fi
+
 \usepackage{mathptmx}      % To use Times New Roman
+\usepackage{array}
+\usepackage{setspace}
+
+
+\usepackage{enumitem} % itemize, enumerate 환경 여백 조절
+\setitemize{noitemsep} % 여백이 너무 넓어서 기본 여백으로 만듦
+\setenumerate{noitemsep} % 여백이 너무 넓어서 기본 여백으로 만듦
+
+\usepackage{indentfirst}
+\setlength\parindent{2.0em}
+
+\RequirePackage{ifthen}       % 추가 패키지 설정
+\RequirePackage{tabu}
+
+\usepackage[nottoc]{tocbibind}
+\usepackage{titlesec}
+\usepackage{cite}   % citation [1,2,3] --> [1-3]
+
+
+\bibliographystyle{gshs_report}
+%\usepackage[numbers,sort&compress]{natbib}
+%\setlength{\bibsep}{0em}
+%\bibliographystyle{gshs_thesisnat}
+
+\usepackage{etoolbox}
+\apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}}{}{}
+%\setstretch{1.5}
 
 
 %% SI Unit 을 사용하기 위한 설정. \SI{1}{\meter\per\sec}는 m/s 와 같이 나옴.
@@ -49,21 +104,18 @@
 \DeclareOption{fleqn}  {\PassOptionsToClass{fleqn}  {article}}
 \DeclareOption{openbib}{\PassOptionsToClass{openbib}{article}}
 
-\bibliographystyle{gshs_report-v1.2}
 
 \ExecuteOptions{english,final}         % doctor,korean,final이 기본값
 \ProcessOptions
 
 %% 12pt,a4paper,onecolumn,oneside 옵션으로 report 클래스 불러오기
-\LoadClass[12pt, a4paper, onecolumn, oneside,titlepage]{article}
+
+%% Kevin
+%%\LoadClass[12pt, a4paper, onecolumn, oneside,titlepage]{article}
 
 
 %%들여쓰기
-\usepackage{indentfirst}
-\setlength\parindent{2.0em}
 
-\RequirePackage{ifthen}       % 추가 패키지 설정
-\RequirePackage{tabu}
 
 %%%% Hangul-ucs preamble.......
 \RequirePackage[nonfrench]{kotex}
@@ -82,7 +134,7 @@
 
 %% 편집용지 설정
 \usepackage[left=25mm,right=25mm,top=30mm,bottom=30mm]{geometry}
-%\usepackage{geometry}
+
 \usepackage{amssymb}
 \usepackage{setspace}
 
@@ -259,16 +311,14 @@
 	\newpage
 }
 
-%한글초록
-\newenvironment{abstractkor}{%
-	\pagenumbering{roman}                        % 로마자 페이지 시작
-	\thispagestyle{plain}%
-	\vspace*{5cm}
-	\begin{center} \Large \textbf{초~~~~~록} \end{center}  % 초록명 -> Abstract
-	
-	\hspace*{5mm}
-	\if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{초록}% 초록을 목차(TOC)에 삽입
-}
+%% %한글초록
+%% \newenvironment{abstractkor}{%
+%% 	\pagenumbering{roman}                        % 로마자 페이지 시작
+%% 	\thispagestyle{plain}%
+%% 	\vspace*{5cm}
+%% 	\begin{center} \Large \textbf{초~~~~~록} \end{center}  % 초록명 -> Abstract
+%% 	\hspace*{5mm}
+%% 	\if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{초록}% 초록을 목차(TOC)에 삽입
 
 
 
@@ -280,16 +330,15 @@
   \begin{center}
   \begin{minipage}[h][35mm][c]{\textwidth}
     \begin{center}
-    {\begin{spacing}{1.0}\LARGE\bfseries\@engtitle\end{spacing}}
+    {\begin{spacing}{1.0}\LARGE\bfseries\textbf{Abstract}\end{spacing}}
+	%{\begin{spacing}{1.0}\LARGE\bfseries\@engtitle\end{spacing}}
     \end{center}
   \end{minipage}
   %\par\vspace{35mm}
   \par\vspace{30mm}
-  {\LARGE \bfseries  Abstract}
+  %{\LARGE \bfseries  Abstract}
   \end{center}
   \par\vspace{0.5cm}
-%   \begin{quote}}
-%{\end{quote}\end{alwayssingle}}
 }{\end{alwayssingle}}
 
 \newenvironment{abstractskor} {\begin{alwayssingle} \thispagestyle{plain}
@@ -297,7 +346,8 @@
   \vspace*{20mm}
   \begin{minipage}[h][35mm][c]{\textwidth}
     \begin{center}
-    {\begin{spacing}{1.5}\LARGE\bfseries\@title\end{spacing}}
+	{\begin{spacing}{1.5}\LARGE\bfseries\textbf{초~~~~~록}\end{spacing}}
+    %{\begin{spacing}{1.5}\LARGE\bfseries\@title\end{spacing}}
     \end{center}
   \end{minipage}
   \par\vspace{35mm}

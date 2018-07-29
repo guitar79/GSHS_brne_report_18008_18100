@@ -1,4 +1,4 @@
-\documentclass{gshs-report-v1.3}
+\documentclass{gshs_report}
 % 아래의 함수를 사용하면 이미지 파일들을 같은 디렉토리 내에 images 라는 이름을 가진 폴더를 생성한 후, 그 폴더 안에 넣어 사용할 수 있습니다.
 % 사용하고자 한다면 주석을 푸십시오.
 \graphicspath{{images/}}
@@ -34,7 +34,8 @@
 %\usepackage{subcaption}
 %\usepackage{floatrow}
 %\usepackage{pict2e}
-
+%\usepackage[backend=biber,style=authoryear]{biblatex}
+%\usepackage{biblatex}
 \usepackage{pgfplots}
 \pgfplotsset{
 	compat=newest,
@@ -61,15 +62,14 @@
 \citation
 \bibdata
 
-
 %: ----------------------------------------------------------------------
 %:               보고서 정보를 입력하시오
 % ----------------------------------------------------------------------
 % 아래와 같은 command를 만들면 길이가 긴 용어를 간편하게 사용할 수 있습니다. 단, 이미 지정된 함수명들은 새로운 함수명으로 사용할 수 없습니다.
-\newcommand{\gshs}{Gyeonggi Science High School }
+\newcommand{\gshs}{Gyeonggi Science High School for the Gifted }
 
 \researchtype{기초} % 기초 / 심화
-\reporttype{중간} % 중간 / 결과
+\reporttype{결과} % 중간 / 결과
 
 \title{보고서 제목} % 제목 개행 시 \linebreak 사용. \\나 \newline 은 안됨.
 \englishtitle{English title}% 제목 개행 시 \linebreak 사용. \\나 \newline 은 안됨.
@@ -78,15 +78,13 @@
 \email[1]{hong@e-mail.address} % 제 1 저자 이메일
 \author[2] {전우치} % 제 2 저자명
 \email[2]{cheon@e-mail.address} % 제 2 저자 이메일
-\author[3] {아이유} % 제 3 저자명
-\email[3]{iu@bogo.sipda} % 제 3 저자 이메일
-\advisor{홍판서} % 지도교사명
-\advisorEmail{teacher@e-mail.address} % 지도교사 이메일
+\advisor{박기현} % 지도교사명
+\advisorEmail{guitar79@gs.hs.kr} % 지도교사 이메일
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% researchtype이 '심화'일 경우에만 나타남 %%%%
 \professor{교수님} % 지도교수명
 \professorEmail{professor@e-mail.address} % 지도교수 이메일
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\summitdate{2016}{02}{07} % 제출일 (연, 월, 일)
+\summitdate{2018}{02}{07} % 제출일 (연, 월, 일)
 \newtheorem{definition}{정의}
