@@ -232,6 +232,14 @@
 \DeclareOptionX{executivepaper}{\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{7.25in}{10.5in}}%
 \DeclareOptionX{screen}        {\@geometryKnowsThisSizetrue\baposter@setfinalpapersize{225mm}{180mm}}%g
 
+%%아래 세 줄 박기현 추가
+%% leqno,fleqn,openbib 옵션은 그대로 report 클래스에 전달
+\DeclareOption{leqno}  {\PassOptionsToClass{leqno}  {article}}
+\DeclareOption{fleqn}  {\PassOptionsToClass{fleqn}  {article}}
+\DeclareOption{openbib}{\PassOptionsToClass{openbib}{article}}
+
+\bibliographystyle{ba_poster}
+
 % Margin
 \setlength{\baposter@finalmargin}{1.5cm}
 \DeclareOptionX{fontscale}[0.292]{\renewcommand{\baposter@fontscale}{#1}}

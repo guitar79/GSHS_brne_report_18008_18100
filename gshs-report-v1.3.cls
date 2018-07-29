@@ -49,6 +49,8 @@
 \DeclareOption{fleqn}  {\PassOptionsToClass{fleqn}  {article}}
 \DeclareOption{openbib}{\PassOptionsToClass{openbib}{article}}
 
+\bibliographystyle{gshs_report-v1.2}
+
 \ExecuteOptions{english,final}         % doctor,korean,final이 기본값
 \ProcessOptions
 
@@ -268,34 +270,120 @@
 	\if@PDFdoc\phantomsection\fi\addcontentsline{toc}{content}{초록}% 초록을 목차(TOC)에 삽입
 }
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%%% Abstract layout %%%
+%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{abstracts}{\begin{alwayssingle} \thispagestyle{plain}
+  \vspace*{20mm}
+  \begin{center}
+  \begin{minipage}[h][35mm][c]{\textwidth}
+    \begin{center}
+    {\begin{spacing}{1.0}\LARGE\bfseries\@engtitle\end{spacing}}
+    \end{center}
+  \end{minipage}
+  %\par\vspace{35mm}
+  \par\vspace{30mm}
+  {\LARGE \bfseries  Abstract}
+  \end{center}
+  \par\vspace{0.5cm}
+%   \begin{quote}}
+%{\end{quote}\end{alwayssingle}}
+}{\end{alwayssingle}}
+
+\newenvironment{abstractskor} {\begin{alwayssingle} \thispagestyle{plain}
+  \begin{center}
+  \vspace*{20mm}
+  \begin{minipage}[h][35mm][c]{\textwidth}
+    \begin{center}
+    {\begin{spacing}{1.5}\LARGE\bfseries\@title\end{spacing}}
+    \end{center}
+  \end{minipage}
+  \par\vspace{35mm}
+  {\LARGE \bfseries{\@korabstract}}
+  \end{center}
+  \par\vspace{0.5cm}}{\end{alwayssingle}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Table of Contents layout %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\contentsname}{\begin{center}Contents\end{center}}
+%\renewcommand{\listfigurename}{\begin{center}List of Figures\end{center}}
+%\renewcommand{\listtablename}{\begin{center}List of Tables\end{center}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\huge\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand{\cftlottitlefont}{\hspace*{\fill}\huge\bfseries}
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}
+\renewcommand{\cftloftitlefont}{\hspace*{\fill}\huge\bfseries}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% List of Figures/Table layout %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\mylenfig}
+\newlength{\mylentab}
+
+\renewcommand{\cftfigpresnum}{\textbf{\figurename}\enspace}
+\renewcommand{\cfttabpresnum}{\textbf{\tablename}\enspace}
+\renewcommand{\cftfigfont}{\bfseries}
+\renewcommand{\cfttabfont}{\bfseries}
+\renewcommand{\cftfigaftersnum}{.}
+\renewcommand{\cfttabaftersnum}{.}
+\renewcommand{\cftfigaftersnumb}{\normalfont}
+\renewcommand{\cfttabaftersnumb}{\normalfont}
+\settowidth{\mylenfig}{\cftfigpresnum}
+\settowidth{\mylentab}{\cfttabpresnum}
+\addtolength{\cftfignumwidth}{\mylenfig}
+\addtolength{\cfttabnumwidth}{\mylentab}
+%% \setlength{\cftfigindent}{0pt}  % remove indentation from figures in lof
+%% \setlength{\cfttabindent}{0pt}  % remove indentation from tables in lot
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% toc, lot, lof layout %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\huge\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+\renewcommand{\cftlottitlefont}{\hspace*{\fill}\huge\bfseries}
+\renewcommand{\cftafterlottitle}{\hspace*{\fill}}
+\renewcommand{\cftloftitlefont}{\hspace*{\fill}\huge\bfseries}
+\renewcommand{\cftafterloftitle}{\hspace*{\fill}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 %% 헤딩 재설정
-%%
-\renewcommand{\contentsname}{%
-	\if@isKorean 목 차       \else Contents        \fi}
-\renewcommand{\listfigurename}{%
-	\if@isKorean 그 림 목 차 \else List of Figures \fi}
-\renewcommand{\listtablename}{%
-	%\if@isKorean 표 목 차    \else List of Tables  \fi}
-	\if@isKorean 표 목 차    \else 표 목 차  \fi}
-%\renewcommand{\bibname}{%
-	%\if@isKorean 참 고 문 헌 \else References      \fi}
-%	\if@isKorean 참 고 문 헌 \else 참 고 문 헌      \fi}
+%%  
+%%  \renewcommand{\contentsname}{%
+%%  	\if@isKorean 목 차       \else Contents        \fi}
+%%  \renewcommand{\listfigurename}{%
+%%  	\if@isKorean 그 림 목 차 \else List of Figures \fi}
+%%  \renewcommand{\listtablename}{%
+%%  	%\if@isKorean 표 목 차    \else List of Tables  \fi}
+%%  	\if@isKorean 표 목 차    \else 표 목 차  \fi}
+%%  %\renewcommand{\bibname}{%
+%%  	%\if@isKorean 참 고 문 헌 \else References      \fi}
+%%  %	\if@isKorean 참 고 문 헌 \else 참 고 문 헌      \fi}
+%%  
+%%  
+%%  \renewcommand \thefigure {\@arabic\c@figure}
+%%  \renewcommand \thetable {\@arabic\c@table}
+%%  %\def\fnum@table{\thetable}
+%%  %\def\fnum@figure{\thefigure}
+
+%%  \renewcommand\figurename{Fig.}%{\sf Fig.}
+%%  \renewcommand\tablename{Table}%{\sf Tab.}
+%%  %\def\fnum@figure{\figurename\nobreakspace\thefigure}
+%%  %\def\fnum@table{\tablename\nobreakspace\thetable}
 
 
-
-
-\renewcommand \thefigure {\@arabic\c@figure}
-\renewcommand \thetable {\@arabic\c@table}
-%\def\fnum@table{\thetable}
-%\def\fnum@figure{\thefigure}
-
-\renewcommand\figurename{Fig.}%{\sf Fig.}
-\renewcommand\tablename{Table}%{\sf Tab.}
-%\def\fnum@figure{\figurename\nobreakspace\thefigure}
-%\def\fnum@table{\tablename\nobreakspace\thetable}
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
