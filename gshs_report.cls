@@ -72,9 +72,6 @@
 
 
 \bibliographystyle{gshs_report}
-%\usepackage[numbers,sort&compress]{natbib}
-%\setlength{\bibsep}{0em}
-%\bibliographystyle{gshs_thesisnat}
 
 \usepackage{etoolbox}
 \apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}}{}{}
@@ -325,6 +322,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 %%% Abstract layout %%%
 %%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{alwayssingle}{%
+	\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+	\else\newpage\fi}
+{\if@restonecol\twocolumn\else\newpage\fi}
+
 \newenvironment{abstracts}{\begin{alwayssingle} \thispagestyle{plain}
   \vspace*{20mm}
   \begin{center}
@@ -351,7 +353,7 @@
     \end{center}
   \end{minipage}
   \par\vspace{35mm}
-  {\LARGE \bfseries{\@korabstract}}
+  %{\LARGE \bfseries{\@korabstract}}
   \end{center}
   \par\vspace{0.5cm}}{\end{alwayssingle}}
 

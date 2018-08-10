@@ -238,7 +238,7 @@
 \DeclareOption{fleqn}  {\PassOptionsToClass{fleqn}  {article}}
 \DeclareOption{openbib}{\PassOptionsToClass{openbib}{article}}
 
-\bibliographystyle{ba_poster}
+\bibliographystyle{gshs_poster}
 
 % Margin
 \setlength{\baposter@finalmargin}{1.5cm}

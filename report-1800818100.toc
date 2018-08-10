@@ -2,9 +2,10 @@
 \contentsline {section}{List of Figures}{ii}
 \contentsline {section}{List of Tables}{iii}
 \contentsline {section}{Abstract}{iv}
-\contentsline {section}{초록}{v}
+\contentsline {section}{초0록}{v}
 \contentsline {section}{\numberline {1}분석}{1}
 \contentsline {subsection}{\numberline {1.1}identification}{1}
 \contentsline {section}{\numberline {2}결과}{2}
 \contentsline {subsection}{\numberline {2.1}Orion A Cloud}{2}
 \contentsline {subsection}{\numberline {2.2}방출류의 세기}{2}
+\contentsline {section}{References}{4}
