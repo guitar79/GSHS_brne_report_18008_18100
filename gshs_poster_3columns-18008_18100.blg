@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: gshs_poster_3columns-18008_18100.aux
+The style file: gshs_poster.bst
+Database file #1: bibfile.bib
+Warning--I didn't find a database entry for "baposter"
+Warning--I didn't find a database entry for "pgfplots"
+Warning--I didn't find a database entry for "jknaau"
+You've used 2 entries,
+            2759 wiz_defined-function locations,
+            625 strings with 5393 characters,
+and the built_in function-call counts, 1106 in all, are:
+= -- 76
+> -- 83
+< -- 12
++ -- 34
+- -- 30
+* -- 109
+:= -- 217
+add.period$ -- 7
+call.type$ -- 2
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 38
+empty$ -- 64
+format.name$ -- 32
+if$ -- 212
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 6
+pop$ -- 10
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 24
+stack$ -- 0
+substring$ -- 49
+swap$ -- 18
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 8
+width$ -- 3
+write$ -- 29
+(There were 3 warnings)

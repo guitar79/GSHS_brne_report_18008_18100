@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.11)  10 AUG 2018 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.6.15)  12 AUG 2018 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1757,9 +1757,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
  [4
 
 
-
 ] [5
-
 
 
 ])
@@ -1790,7 +1788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--35
 Here is how much of TeX's memory you used:
  42000 strings out of 492649
  977201 string characters out of 6133384
- 1124258 words of memory out of 5000000
+ 1124246 words of memory out of 5000000
  45131 multiletter control sequences out of 15000+600000
  608492 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1857,7 +1855,7 @@ f-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb><c:/texlive/2018/texmf-dist
 l/usyr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report-1800818100.pdf (10 pages, 2409595 bytes).
+Output written on report-1800818100.pdf (10 pages, 2409480 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  224 compressed objects within 3 object streams
