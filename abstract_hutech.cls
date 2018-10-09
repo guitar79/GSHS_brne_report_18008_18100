@@ -5,7 +5,7 @@
 \ProvidesClass{abstract_hutech}
 \LoadClass[pdftex, a4size, twoside, 10pt, twocolumn]{article}
 
-
+\graphicspath{{images/}}
 \usepackage[T1]{fontenc}   % To use Times New Roman
 \usepackage[utf8]{inputenc}% To use Times New Roman
 \usepackage{mathptmx}      % To use Times New Roman

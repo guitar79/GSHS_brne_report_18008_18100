@@ -23,14 +23,14 @@
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{../../../Desktop/before}
+\includegraphics[width=0.7\linewidth]{before}
 \caption{초점을 맞추기 전의 태양 표면}
 \label{fig:before}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{../../../Desktop/after}
+\includegraphics[width=0.7\linewidth]{after}
 \caption{초점을 맞춘 후의 태양 표면}
 \label{fig:after}
 \end{figure}
@@ -40,25 +40,27 @@
 그림 3이 바로 Micro touch로, 시중에 나와있는 모터포커서이다. 이를 옆의 컴퓨터와 연결시킨 그림이 바로 그림4로, 이를 이용하여 컴퓨터에서도 ASCOM이라는 프로그램을 이용하여 원격으로 모터의 초점을 맞출 수 있도록 설정할 수가 있다. 그림3에서 나온 위의 두 버튼(IN, OUT)은 각각 초점을 맞추기 위해 망원경의 길이를 줄이거나 늘일 수 있는 버튼이다. Micro touch를 수동 혹은 자동으로 작동시켜 IN또는 OUT의 명령을 내렸을 경우, 그림 5에 보이는 모터포커서가 작동하게 된다. 이 모터포커서는 그림 5의 오른쪽에 보이는 모터를 움직여 천체망원경의 경통의 길이를 조절할 수 있도록 한다. 경통의 길이가 변화하면 그에 따라서 빛이 퍼지는 정도가 달라지므로 이를 잘 조정하면 망원경으로 관측하는 천체의 초점을 맞출 수 있게 된다.
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{../../../Desktop/telescope1}
+\includegraphics[width=0.7\linewidth]{telescope1}
 \caption{Micro Touch를 천체망원경에 부착시킨 모습}
 \label{fig:telescope1}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{../../../Desktop/telescope2}
+\includegraphics[width=0.7\linewidth]{telescope2}
 \caption{Micro Touch와 연결된 컴퓨터}
 \label{fig:telescope2}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{../../../Desktop/telescope3}
+\includegraphics[width=0.7\linewidth]{telescope3}
 \caption{모터포커서와 망원경의 길이}
 \label{fig:telescope3}
 \end{figure}
 
+\subsection{선행연구 고찰}
+이덕규 외(2014)는 복합재 광구조체와 결합하여 전자광학카메라의 영상품질을 향상시킬 수 있는 초점조절장치를 개발하였다.\cite{leedukgu2014}
 \section{연구내용 및 방법}
 
 \subsection{아두이노를 이용한 모터 포커서 제작}
@@ -88,9 +90,14 @@
 Abstracts and Papers should be written according to the following order: ①Title ②Ab을stract ③Main text ④References.
 
 \begin{thebibliography}{99}
-\bibitem{한인구} 한인구, 김형국. (2009). 자동 개인 사진 분류장치. 정보 및 제어 논문집, , 105-106.
+\bibitem{Hanig} 한인구, 김형국. (2009). 자동 개인 사진 분류장치. 정보 및 제어 논문집, , 105-106.
 \bibitem{이덕규} 이덕규, 육영춘, 연정흠, 장수영, 이응식. (2014). 고해상도 전자광학카메라 초점조절장치 개발. 한국항공우주학회 학술발표회 초록집, , 553-555.
 \bibitem{한헌수} 한헌수, 최정렬. (2004). 실시간 감시 카메라를 구현하기 위한 고속 영상확대 및 초점조절 기법. 한국정밀공학회지, 21(3), 74-82.
+\end{thebibliography}
+
+\begin{thebibliography}{99}
+	
+\bibliography{bibfile} % 참고문헌
 \end{thebibliography}
 
 \end{document}
