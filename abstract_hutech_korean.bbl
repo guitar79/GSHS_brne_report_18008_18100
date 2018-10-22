@@ -5,4 +5,17 @@
 \newblock 고해상도 전자광학카메라 초점조절장치 개발.
 \newblock {\em 한국항공우주학회 학술발표회 초록집}, 553--555.
 
+\bibitem[2]{yunjonghwan2011lcd}
+윤종환, 이대종, 이상원, \& 전명근 (2011).
+\newblock Lcd 패널 불량 검출을 위한 오토포커싱 알고리즘
+  개발.
+\newblock {\em 한국지능시스템학회 학술발표 논문집}, {\em
+  21\/}(1), 17--18.
+
+\bibitem[3]{parksukhui2009Median}
+박석휘, \& 김영철 (2009).
+\newblock 미디언 필터를 적용한 모바일 폰용 자동초점조절
+  알고리즘에 관한 연구.
+\newblock {\em 한국멀티미디어학회 학술발표논문집}, 20--23.
+
 \end{thebibliography}

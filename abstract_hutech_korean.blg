@@ -5,45 +5,47 @@ The style file: abstract_hutech.bst
 Database file #1: bibfile.bib
 You can't pop an empty literal stack for entry leedukgu2014
 while executing---line 2819 of file abstract_hutech.bst
-You've used 1 entry,
+You can't pop an empty literal stack for entry parksukhui2009Median
+while executing---line 2819 of file abstract_hutech.bst
+You've used 3 entries,
             2759 wiz_defined-function locations,
-            612 strings with 4953 characters,
-and the built_in function-call counts, 443 in all, are:
-= -- 31
-> -- 29
-< -- 3
-+ -- 12
-- -- 10
-* -- 46
-:= -- 91
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
+            626 strings with 5371 characters,
+and the built_in function-call counts, 1145 in all, are:
+= -- 86
+> -- 67
+< -- 6
++ -- 28
+- -- 22
+* -- 120
+:= -- 217
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 27
-format.name$ -- 11
-if$ -- 77
+cite$ -- 3
+duplicate$ -- 37
+empty$ -- 76
+format.name$ -- 27
+if$ -- 204
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 3
+int.to.str$ -- 6
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 8
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 12
 quote$ -- 0
-skip$ -- 7
+skip$ -- 20
 stack$ -- 0
-substring$ -- 29
-swap$ -- 4
+substring$ -- 75
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3
+type$ -- 9
 warning$ -- 0
-while$ -- 4
-width$ -- 2
-write$ -- 15
-(There was 1 error message)
+while$ -- 12
+width$ -- 4
+write$ -- 41
+(There were 2 error messages)
