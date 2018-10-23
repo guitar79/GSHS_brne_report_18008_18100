@@ -7,45 +7,45 @@ You can't pop an empty literal stack for entry leedukgu2014
 while executing---line 2819 of file abstract_hutech.bst
 You can't pop an empty literal stack for entry parksukhui2009Median
 while executing---line 2819 of file abstract_hutech.bst
-You've used 3 entries,
+You've used 4 entries,
             2759 wiz_defined-function locations,
-            626 strings with 5371 characters,
-and the built_in function-call counts, 1145 in all, are:
-= -- 86
-> -- 67
-< -- 6
-+ -- 28
-- -- 22
-* -- 120
-:= -- 217
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 9
+            634 strings with 5671 characters,
+and the built_in function-call counts, 1527 in all, are:
+= -- 114
+> -- 91
+< -- 8
++ -- 38
+- -- 30
+* -- 163
+:= -- 288
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 37
-empty$ -- 76
-format.name$ -- 27
-if$ -- 204
+cite$ -- 4
+duplicate$ -- 50
+empty$ -- 101
+format.name$ -- 36
+if$ -- 272
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 9
-pop$ -- 8
+int.to.str$ -- 8
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 16
 quote$ -- 0
-skip$ -- 20
+skip$ -- 26
 stack$ -- 0
-substring$ -- 75
-swap$ -- 13
+substring$ -- 98
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 9
+type$ -- 12
 warning$ -- 0
-while$ -- 12
-width$ -- 4
-write$ -- 41
+while$ -- 16
+width$ -- 5
+write$ -- 54
 (There were 2 error messages)
