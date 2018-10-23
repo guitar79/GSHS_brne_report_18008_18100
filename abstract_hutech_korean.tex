@@ -1,5 +1,6 @@
 \documentclass{abstract_hutech}
 \graphicspath{{images/}}
+\usepackage{subcaption}
 \begin{document}
 \thispagestyle{firstpage}
 \twocolumn[
@@ -19,20 +20,23 @@
 
 \subsection{선정 배경}
 
-많은 사람들이 알고 있듯이 천체망원경으로 천체를 관측할 때 초점을 맞춘다면 관측할 천체의 모습이 더 선명하게 보인다. 그림 1은 천체망원경의 초점을 맞추지 않고 천체망원경으로 찍은 사진이고, 그림 2는 천체망원경의 초점을 맞추고 천체망원경으로 찍은 사진이다. 이 두 사진에서 볼 수 있듯이 초점을 맞췄을 때 천체가 더 선명하다는 사실을 알 수 있다. 하지만 그림 1에서의 사진도 작자의 손으로 초점을 맞춘 것이라 정확하게 초점이 맞지 않다. 또한 초점이 완벽하게 맞지 않았는데도 이러한 사진을 찍기 위해서 초점을 맞추는데 많은 시간을 투자해야 한다. 이렇듯 사진을 통하여 정밀한 천체의 사진이 필요한 경우 사람의 손으로는 무리가 있다. 이러한 문제를 해결하기 위한 해결방법으로는 자동 초점 조절 장치가 있다. 자동 초점 조절 장치가 현재 개발되어 있는 제품이 미국 Starizona 회사의 Micro touch이다. 이 제품은 자동 초점 조절 시스템이 구현이 잘 되어 있으나, 가격이 499달러로 부담이 있다. 따라서 이러한 자동 초점 조절 장치를 arduino 기반으로 제작한다면 천체망원경의 초점을 맞출 때 사람들에게 편의성을 제공하고 이전의 제품보다 값싸게 비슷한 기능을 구현하는 것이 가능해질 것이다.
+많은 사람들이 알고 있듯이 천체망원경으로 천체를 관측할 때 초점을 맞춘다면 관측할 천체의 모습이 더 선명하게 보인다. 그림 1의 (a)는 천체망원경의 초점을 맞추지 않고 천체망원경으로 찍은 사진이고, 그림 1의 (b)는 천체망원경의 초점을 맞추고 천체망원경으로 찍은 사진이다. 이 두 사진에서 볼 수 있듯이 초점을 맞췄을 때 천체가 더 선명하다는 사실을 알 수 있다. 하지만 그림 1의 (a)에서의 사진도 작자의 손으로 초점을 맞춘 것이라 정확하게 초점이 맞지 않다. 또한 초점이 완벽하게 맞지 않았는데도 이러한 사진을 찍기 위해서 초점을 맞추는데 많은 시간을 투자해야 한다. 이렇듯 사진을 통하여 정밀한 천체의 사진이 필요한 경우 사람의 손으로는 무리가 있다. 이러한 문제를 해결하기 위한 해결방법으로는 자동 초점 조절 장치가 있다. 자동 초점 조절 장치가 현재 개발되어 있는 제품이 미국 Starizona 회사의 Micro touch이다. 이 제품은 자동 초점 조절 시스템이 구현이 잘 되어 있으나, 가격이 499달러로 부담이 있다. 따라서 이러한 자동 초점 조절 장치를 arduino 기반으로 제작한다면 천체망원경의 초점을 맞출 때 사람들에게 편의성을 제공하고 이전의 제품보다 값싸게 비슷한 기능을 구현하는 것이 가능해질 것이다.
 
 \begin{figure}[h]
+\begin{subfigure}{0.23\textwidth}
 \centering
-\includegraphics[width=0.8\linewidth]{before}
-\caption{초점을 맞추기 전의 태양 표면}
+\includegraphics[width=1\linewidth, height=3cm]{before}
+\caption{초점을 맞추기 전}
 \label{fig:before}
-\end{figure}
-
-\begin{figure}[h]
+\end{subfigure}
+\begin{subfigure}{0.23\textwidth}
 \centering
-\includegraphics[width=0.8\linewidth]{after}
-\caption{초점을 맞춘 후의 태양 표면}
+\includegraphics[width=1\linewidth, height=3cm]{after}
+\caption{초점을 맞춘 후}
 \label{fig:after}
+\end{subfigure}
+\caption{초점을 맞춘 사진과 맞추지 않은 사진의 비교}
+%\label{fig:image2}
 \end{figure}
 
 %% original
@@ -55,27 +59,6 @@
 
 그림 3이 바로 Micro touch로, 시중에 있는 자동 초점 조절 장치이다. 이를 옆의 컴퓨터와 연결시킨 그림이 바로 그림4로, 이를 이용하여 컴퓨터에서도 ASCOM이라는 프로그램을 이용하여 원격으로 모터의 초점을 맞출 수 있도록 설정할 수가 있다. 그림3에서 나온 위의 두 버튼(IN, OUT)은 각각 초점을 맞추기 위해 망원경의 길이를 줄이거나 늘일 수 있는 버튼이다. Micro touch를 수동 혹은 자동으로 작동시켜 IN또는 OUT의 명령을 내렸을 경우, 그림 5에 보이는 모터포커서가 작동하게 된다. 이 모터포커서는 그림 5의 오른쪽에 보이는 모터를 움직여 천체망원경의 경통의 길이를 조절할 수 있도록 한다. 경통의 길이가 변화하면 그에 따라서 빛이 퍼지는 정도가 달라지므로 이를 잘 조정하면 망원경으로 관측하는 천체의 초점을 맞출 수 있게 된다.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{telescope1}
-\caption{Micro Touch를 천체망원경에 부착시킨 모습}
-\label{fig:telescope1}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{telescope2}
-\caption{Micro Touch와 연결된 컴퓨터}
-\label{fig:telescope2}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.8\linewidth]{telescope3}
-\caption{모터포커서와 망원경의 길이}
-\label{fig:telescope3}
-\end{figure}
-
 \subsection{선행연구 고찰}
 
 이덕규 외(2014)는 복합재 광구조체와 결합하여 전자광학카메라의 영상품질을 향상시킬 수 있는 초점조절장치를 개발하였다.\cite{leedukgu2014}
@@ -83,6 +66,27 @@
 윤종환 외(2011)는 선명도에 관한 기울기를 이용하여 초점이 맞았는지를 확인하는 방법을 사용하였다.\cite{yunjonghwan2011lcd}
 
 박석휘 외(2009)는 모바일 폰용 자동 초점 조절 알고리즘을 초점 값 계산 알고리즘을 이용하여 구현하였다.\cite{parksukhui2009Median}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{telescope1}
+	\caption{Micro Touch를 천체망원경에 부착시킨 모습}
+	\label{fig:telescope1}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{telescope2}
+	\caption{Micro Touch와 연결된 컴퓨터}
+	\label{fig:telescope2}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{telescope3}
+	\caption{모터포커서와 망원경의 길이}
+	\label{fig:telescope3}
+\end{figure}
 
 \section{연구내용 및 방법}
 
