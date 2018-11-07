@@ -166,13 +166,12 @@
 }
 %the poster title
 {\color{white}\bf
-  The GSHS Poster Theme
+  천체망원경 모터 포커서 컨트롤러 구동 시스템 개발 및 ASCOM 드라이버 개발
 }
 %the author(s)
 {\color{white}\small
-  \vspace{1em} Wool Seo\\[0.5em]
-  Dept.\ of Physics and Earth Science, Gyeonggi Science High School For The Gifted, South Korea\\
-  wool@wool.pe.kr
+  \vspace{1em} 정기현, 곽지성\\[0.5em]
+  Dept.\ of 융합과학, 경기과학고등학교
 }
 %the logo (the logo on the right)
 {
@@ -184,40 +183,51 @@
 % the actual content of the poster begins here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{posterbox}[name=intro,column=0,row=0]{Introduction}
+\begin{posterbox}[name=intro,column=0,row=0]{서론}
 \begin{itemize}
-  \item Posters are often used at conferences for presenting exciting new research results.
-  \item So far no official AAU poster theme is available to the researchers and students at Aalborg University (AAU).
-  \item The present theme changes this.
-  \item The theme is a particular configuration of the \alert{baposter} poster template \cite{baposter} which you can find here \url{http://www.brian-amberg.de/uni/poster/} and must have installed in order to use the AAU poster theme.
+  \item 천체망원경의 초점을 사람의 손으로 맞추는 것은 흔들림으로 인하여 쉽지 않다.
+  \item 이러한 문제를 해결하기 위하여 'Starizona' 회사에서 자동초점조절 장치인 'Micro Touch'를 개발하였다.
+  \item 그러나 이를 사용할 때 여러 가지 불편한 점들이 있고, 가격도 매우 비싸다.
+  %\item The theme is a particular configuration of the \alert{baposter} poster template \cite{baposter} which you can find here \url{http://www.brian-amberg.de/uni/poster/} and must have installed in order to use the AAU poster theme.
+  \item 해결책은 이러한 펌웨어를 더욱 저렴한 가격에 개발하는 것이다.
 \end{itemize}
 \end{posterbox}
 
-\begin{posterbox}[name=usage,column=0,below=intro]{Usage}
+\begin{posterbox}[name=usage,column=0,below=intro]{선행연구 고찰}
 \begin{itemize}
-  \item To use the AAU poster theme, place the {\tt aauposter.tex} file in your preferred folder and modify the file to your needs.
-  \item You can read more about how you can modify the theme in the documentation for the baposter template which you can find here \url{http://www.brian-amberg.de/uni/poster/}.
-  \item \footnotesize 한글 지원도 잘 됩니다. 폰트가 마음에 안들어요.
+  %\item To use the AAU poster theme, place the {\tt aauposter.tex} file in your preferred folder and modify the file to your needs.
+  \item 이덕규 외(2014)는 복합재 광구조체와 결합하여 전자광학카메라의 영상품질을 향상시킬 수 있는 초점조절장치를 개발하였다.\cite{leedukgu2014}
+  \item 윤종환 외(2011)는 선명도에 관한 기울기를 이용하여 초점이 맞았는지를 확인하는 방법을 사용하였다.\cite{yunjonghwan2011lcd}
+  \item 박석휘 외(2009)는 모바일 폰용 자동 초점 조절 알고리즘을 초점 값 계산 알고리즘을 이용하여 구현하였다.\cite{parksukhui2009Median}
+  \item 이성희 외(1998)는 각 화소들의 미디언 값의 차이를 이용하여 초점을 맞추는 알고리즘을 구현하였다.\cite{leeseonghee1998Median}
+  %\item \footnotesize 한글 지원도 잘 됩니다. 폰트가 마음에 안들어요.
 \end{itemize}
 \end{posterbox}
 
-\begin{posterbox}[name=lists,column=0,below=usage]{Lists}
+\begin{posterbox}[name=lists,column=0,below=usage]{List of Items}
 Itemize
 \begin{itemize}
-  \item item 1
+%  \item item 1
+%    \begin{itemize}
+%      \item subitem 1
+%        \begin{itemize}
+%          \item subsubitem 1
+%            \begin{itemize}
+%              \item subsubsubitem 1
+%              \item subsubsubitem 2
+%            \end{itemize}
+%          \item subsubitem 2
+%        \end{itemize}
+%      \item subitem 2
+%    \end{itemize}
+%  \item item 2
+%\end{itemize}
+  \item 천체망원경
     \begin{itemize}
-      \item subitem 1
-        \begin{itemize}
-          \item subsubitem 1
-            \begin{itemize}
-              \item subsubsubitem 1
-              \item subsubsubitem 2
-            \end{itemize}
-          \item subsubitem 2
-        \end{itemize}
-      \item subitem 2
+    	\item TEC140 광학계에는 Starlight Instruments에서 제작한 3.5" Feather Touch Focuser가 장착 되어 있다.
+    	\item Starlight Instruments에서는 3.5" Feather Touch Focuser에 장착할 수 있는 STEPPER MOTOR와 MICRO TOUCH FOCUSING SYSTEM을 제작하여 판매하고 있다.
+    	\item 모터는 구입한 것을 사용하고 MICRO TOUCH FOCUSING SYSTEM과 같은 기능을 가진 포커서 컨트롤러를 제작하였다.
     \end{itemize}
-  \item item 2
 \end{itemize}
 Enumerate
 \begin{enumerate}

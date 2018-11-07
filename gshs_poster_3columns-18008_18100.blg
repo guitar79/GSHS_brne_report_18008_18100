@@ -5,45 +5,50 @@ The style file: gshs_poster.bst
 Database file #1: bibfile.bib
 Warning--I didn't find a database entry for "baposter"
 Warning--I didn't find a database entry for "pgfplots"
-You've used 1 entry,
+Warning--I didn't find a database entry for "hanhunsu2004"
+You can't pop an empty literal stack for entry leedukgu2014
+while executing---line 2819 of file gshs_poster.bst
+You can't pop an empty literal stack for entry parksukhui2009Median
+while executing---line 2819 of file gshs_poster.bst
+You've used 4 entries,
             2759 wiz_defined-function locations,
-            615 strings with 4950 characters,
-and the built_in function-call counts, 349 in all, are:
-= -- 27
-> -- 14
-< -- 1
-+ -- 6
-- -- 4
-* -- 38
-:= -- 65
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
+            637 strings with 5715 characters,
+and the built_in function-call counts, 1527 in all, are:
+= -- 114
+> -- 91
+< -- 8
++ -- 38
+- -- 30
+* -- 163
+:= -- 288
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 13
-empty$ -- 26
-format.name$ -- 7
-if$ -- 61
+cite$ -- 4
+duplicate$ -- 50
+empty$ -- 101
+format.name$ -- 36
+if$ -- 272
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 2
+int.to.str$ -- 8
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 16
 quote$ -- 0
-skip$ -- 6
+skip$ -- 26
 stack$ -- 0
-substring$ -- 23
-swap$ -- 5
+substring$ -- 98
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3
+type$ -- 12
 warning$ -- 0
-while$ -- 4
-width$ -- 2
-write$ -- 15
-(There were 2 warnings)
+while$ -- 16
+width$ -- 5
+write$ -- 54
+(There were 2 error messages)
