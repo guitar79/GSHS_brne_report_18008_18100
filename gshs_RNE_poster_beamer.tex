@@ -168,30 +168,19 @@
 
 %% Right Column
 \column{0.3\textwidth}
-\begin{posterbox}[colbacktitle=blue!50!black,coltitle=white,colback=cyan!5]{Yesterday}
-Yesterday all my troubles seemed so far away. Now it looks as though they're here to stay. Oh, I believe in yesterday. Suddenly, I'm not half the man I used to be.
-There's a shadow hanging over me.
-Oh, yesterday came suddenly. Why she had to go?
-I don't know, she wouldn't say.
-I said something wrong.
-Now I long for yesterday. Yesterday love was such an easy game to play.
-Now I need a place to hide away.
-Oh, I believe in yesterday. Why she had to go?
-I don't know, she wouldn't say.
-I said something wrong.
-Now I long for yesterday. Yesterday love was such an easy game to play.
-Now I need a place to hide away.
-Oh, I believe in yesterday.
-%\begin{center}
-%\includegraphics[width=0.5\linewidth]{./figures/fig02.jpg}
-%\captionof{figure}{\color{red!60!black} caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here caption here}
-%\end{center}
+\begin{posterbox}[colbacktitle=blue!50!black,coltitle=white,colback=cyan!5]{연구 결과의 활용과 기대효과}
+자동 초점 조절 장치 없이 사람이 직접 초점을 맞추는 것은 정확하지 않고 시간이 많이 든다. 이를 해결하기 위해서 시중에 나온 Micro Touch의 경우 이러한 문제점들을 잘 해결해주고 있다. 하지만 가격이 비싸서 부담스러울 수 있고, 제품을 사용하다보면 길이를 늘이거나 줄일 때 가속기능이 존재하지 않아서 설정되어야 하는 값과 현재 값이 차이가 많이 난다면 설정하는데 시간이 오래 걸린다는 단점이 있다. 본 연구에서는 이러한 단점들을 보완하여 가속기능을 추가하고, arduino 코딩을 기반으로 자동 초점 조절 장치를 개발한다. 이러한 자동 초점 조절 장치가 이용된다면 현재보다 더욱 편리하게 천체망원경의 초점을 맞출 수 있게 되어 천체를 관측하거나 초점을 조절하여 찍은 사진을 이용하는 연구의 경우 사람의 손보다 수월하게 진행이 가능하다.
 \end{posterbox}
 
 \vspace{1em}
 
-\begin{posterbox}{Conclusion}
-conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here conclusion here 
+\begin{posterbox}{추후 연구}
+\begin{itemize}
+	\item 카메라(또는 CCD) 제어 S/W 개발
+	사진 관측을 이용해서 얻은 사진을 컴퓨터로 연결하여 분석이 가능할 수 있도록 만든 카메라(CCD) 제어 시스템을 개발한다. 이를 위하여 사진을 컴퓨터로 보낼 수 있어야 한다. 또한, 카메라에 나오는 화면의 변화를 보아야 하므로 연속적인 변화를 실시간으로 보낼 수 있는 프로그램을 만들어서 컴퓨터가 제대로 인식을 하여 모터에 올바른 명령을 내릴 수 있는지 확인한다.
+	\item 오토 포커싱 알고리즘 구현
+	천체망원경의 초점을 맞추기 위해 사진 관측의 사진을 연속적으로 찍어서 컴퓨터로 보내주고, 컴퓨터는 이를 분석하여 자동 초점 조절 장치 컨트롤러에 별의 크기가 커지고 있는지 작아지고 있는지 정보를 알고리즘에 보내준다. 그러면 프로그래밍 된 arduino가 모터를 어느 방향으로 돌려야 하는지 판단하여 모터를 돌리고, 이 과정을 반복하여 별의 크기가 제일 작아질 때, 즉 별의 초점이 맞을 때 이 과정을 멈춘다. 이러한 과정이 일어나는지 실제로 천체망원경에 달아서 확인한다.
+\end{itemize}
 \end{posterbox}
 
 \vspace{1em}
