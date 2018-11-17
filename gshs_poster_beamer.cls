@@ -44,6 +44,7 @@
 \def\authorthree#1{\gdef\@authorthree{#1}}
 \def\teacher#1{\gdef\@teacher{#1}}
 
+
 %% Header
 \renewcommand{\maketitle}{
   \begin{center}
@@ -74,6 +75,14 @@
 %\graphicspath{{figures/}} 
 \usepackage[font=small,labelfont=bf]{caption}
 \captionsetup{labelsep=space}
+
+%%%%%
+%%%% Reference Setting %%%%
+\bibliographystyle{gshs_poster_beamer}
+
+\renewcommand\refname{REFERENCES}
+%%%%%
+
 
 \makeatletter
 \let\@@magyar@captionfix\relax

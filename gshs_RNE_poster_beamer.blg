@@ -1,47 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: gshs_RNE_poster_beamer.aux
-I found no \bibdata command---while reading file gshs_RNE_poster_beamer.aux
-I found no \bibstyle command---while reading file gshs_RNE_poster_beamer.aux
+The style file: gshs_poster_beamer.bst
+Database file #1: bibfile.bib
+You can't pop an empty literal stack for entry leedukgu2014
+while executing---line 2819 of file gshs_poster_beamer.bst
+You can't pop an empty literal stack for entry parksukhui2009Median
+while executing---line 2819 of file gshs_poster_beamer.bst
 You've used 4 entries,
-            0 wiz_defined-function locations,
-            89 strings with 630 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            2759 wiz_defined-function locations,
+            634 strings with 5674 characters,
+and the built_in function-call counts, 1527 in all, are:
+= -- 114
+> -- 91
+< -- 8
++ -- 38
+- -- 30
+* -- 163
+:= -- 288
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 4
+duplicate$ -- 50
+empty$ -- 101
+format.name$ -- 36
+if$ -- 272
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+int.to.str$ -- 8
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 16
 quote$ -- 0
-skip$ -- 0
+skip$ -- 26
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 98
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 12
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
+while$ -- 16
+width$ -- 5
+write$ -- 54
 (There were 2 error messages)
