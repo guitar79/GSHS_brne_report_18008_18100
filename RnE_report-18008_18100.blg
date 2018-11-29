@@ -4,51 +4,51 @@ The top-level auxiliary file: RnE_report-18008_18100.aux
 The style file: gshs_report.bst
 A level-1 auxiliary file: sub/abstract.aux
 A level-1 auxiliary file: sub/introduction.aux
-A level-1 auxiliary file: sub/method.aux
-A level-1 auxiliary file: sub/result.aux
+A level-1 auxiliary file: sub/theoritical_background.aux
+A level-1 auxiliary file: sub/method_of_the_study.aux
 A level-1 auxiliary file: sub/conclusion.aux
+A level-1 auxiliary file: sub/further_study.aux
+I found no \citation commands---while reading file RnE_report-18008_18100.aux
 Database file #1: bibfile.bib
-You can't pop an empty literal stack for entry haningu2009
-while executing---line 2819 of file gshs_report.bst
-You've used 1 entry,
+You've used 0 entries,
             2759 wiz_defined-function locations,
-            617 strings with 4938 characters,
-and the built_in function-call counts, 359 in all, are:
-= -- 29
-> -- 14
-< -- 1
-+ -- 6
-- -- 4
-* -- 35
-:= -- 67
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
+            612 strings with 4882 characters,
+and the built_in function-call counts, 19 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 27
-format.name$ -- 7
-if$ -- 64
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 2
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 0
 quote$ -- 0
-skip$ -- 7
+skip$ -- 1
 stack$ -- 0
-substring$ -- 29
-swap$ -- 4
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3
+type$ -- 0
 warning$ -- 0
-while$ -- 4
-width$ -- 2
-write$ -- 15
+while$ -- 0
+width$ -- 0
+write$ -- 2
 (There was 1 error message)
