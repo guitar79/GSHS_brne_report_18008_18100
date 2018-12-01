@@ -41,7 +41,6 @@
 \usepackage{fancyhdr}
 \usepackage[nottoc]{tocbibind}
 \usepackage{titlesec}
-\usepackage{cite}   % citation [1,2,3] --> [1-3]
 \usepackage{tocloft}
 \usepackage[toc,page]{appendix}
 
@@ -60,6 +59,11 @@
 \setitemize{noitemsep} % 여백이 너무 넓어서 기본 여백으로 만듦
 \setenumerate{noitemsep} % 여백이 너무 넓어서 기본 여백으로 만듦
 
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} 
+% 주석 번호와 참고문헌 번호의 혼동을 막기 위해 arabic 대신 fnsymbol 사용(asterisk, dagger, double dagger, ...)
+
+
 \usepackage{indentfirst}
 \setlength\parindent{2.0em}
 
@@ -70,8 +74,10 @@
 \usepackage{titlesec}
 \usepackage{cite}   % citation [1,2,3] --> [1-3]
 
-
 \bibliographystyle{gshs_report}
+%\usepackage[numbers,sort&compress]{natbib}
+%\setlength{\bibsep}{0em}
+%\bibliographystyle{gshs_thesisnat}
 
 \usepackage{etoolbox}
 \apptocmd{\thebibliography}{\setlength{\itemsep}{0pt}}{}{}
@@ -132,7 +138,6 @@
 %% 편집용지 설정
 \usepackage[left=25mm,right=25mm,top=30mm,bottom=30mm]{geometry}
 
-\usepackage{amssymb}
 \usepackage{setspace}
 
 %% 줄간격 설정
@@ -282,7 +287,7 @@
 				\@fifthAuthor(\@fifthAuthorEmail)\\ }%
 		\end{center}
 	\end{minipage}
-	\vskip 4.56pc %3pc + 12pt*1.3*1.2
+	\vskip 3.56pc %3pc + 12pt*1.3*1.2
 	\noindent\begin{minipage}[c]{\textwidth}
 		\begin{center}
 			\large 지도교사: \@advisor(\@advisorEmail)

@@ -1,4 +1,4 @@
-% BibTeX bibliography style `gshs_thesis'
+% BibTeX bibliography style `gshs_report'
 % version 0.99a for BibTeX versions 0.99a or later, LaTeX version 2.09.
 % Copyright (C) 1985, all rights reserved.
 % Copying of this file is authorized only if either
