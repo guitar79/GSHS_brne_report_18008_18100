@@ -1,296 +1,195 @@
-#define FirmwareDate   "Feb. 18. 2019"
-#define FirmwareNumber "0.1"
-#define FirmwareName   "GSFocus"
-#define FirmwareTime   "12:00:00"
 
-//상수들은 따로 저장함
-#include "Constants.h"
 
-#include <DHT.h>
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
-#include "DHT.h"
-#include <BasicStepperDriver.h>
+// EQ Simple Focuser
+// Arduino code in controlling an absolute focuser
+// using a stepper motor
+//https://blog.naver.com/chandong83/220875868466
+//https://www.airspayce.com/mikem/arduino/AccelStepper/classAccelStepper.html#a9d917f014317fb9d3b5dc14e66f6c689
+#include <AccelStepper.h>
 #include <DRV8825.h>
-#include <SyncDriver.h>
-#include <Stepper.h>
-#include <EEPROM.h>
+#include <BasicStepperDriver.h>
 
-DHT dht(DHTPIN, DHTTYPE);
+#include "Switch.h"
+//#include "U8Display.h"
+#include "setDisplay.h"
 
-Adafruit_SSD1306 display(OLED_RESET);
-#define MOTOR_STEPS 200
+#include <Adafruit_Sensor.h>
+#include <DHT.h>
+#include <DHT_U.h>
 
-#define LOGO16_GLCD_HEIGHT 16 
-#define LOGO16_GLCD_WIDTH 16
-#define NUMFLAKES 10
-#define XPOS 0
-#define YPOS 1
-#define DELTAY 2
+// Declaration needed for the DRV8825 Library
+DRV8825 stepper(MOTOR_STEPS, DIR,STEP,MS0,MS1,MS2);
+//AccelStepper stepper1(AccelStepper::FULL4WIRE, motorPin5, motorPin7, motorPin6, motorPin8);
+bool isMoving = false;
 
-#define DIR 4
-#define STEP 5 
-#define MS0 8 
-#define MS1 7 
-#define MS2 6
-DRV8825 stepper(MOTOR_STEPS, DIR, STEP, MS0, MS1, MS2);
+// for command purposes
+String inputString = "";
+int step = 0;
+int stepmode = 1;
+int speedmode = 1;
+float mult=1;
+int backlashStep = 0;
+String lastDirection = "NONE"; //"OUTWARD"
+String currentDirection = "NONE";
 
-short S[4]={0}; short now[4]={1}; short was[4]={0};
-unsigned long MOTOR_ANGLE,ANGLE;
-float hum; float temp;
-unsigned long P_MT=0; unsigned long C_MT;
-int copystate=0;
-int addr=0;
+// for pin values : cw(clockwise but 시계반대방향), ccw(counterclockwise but 시계방향) : 정방향, 역방향
+//https://m.blog.naver.com/PostView.nhn?blogId=glooory&logNo=220926317204&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+
+// for manual control
+bool positionReported = false;
+float Speed;
+float nowRPM;
+unsigned long currentPosition = 250000;
+double distance = 0;
 
 int state=1;
-int change;
-int cstate=0;
+bool ismove = false;
+// temperature and humidity sensor
+//http://blog.naver.com/PostView.nhn?blogId=nkkh159&logNo=220604500053
+DHT_Unified dht(DHT22_PIN,DHT22);
+int delayMS;
 
-int val0= EEPROM.read(0);
-int val1= EEPROM.read(1);
-int val2= EEPROM.read(2);
-int val3= EEPROM.read(3);
-int val4= EEPROM.read(4);
-int val5= EEPROM.read(5);
-int val6= EEPROM.read(6);
-int val7= EEPROM.read(7);
-int val8= EEPROM.read(8);
+void setup() 
+    {
+        Serial.begin(baudrate);
+        Serial.println(F("EQFOCUSER_STEPPER#"));
 
-void ecwrite1()
-{
-   if(MOTOR_ANGLE/1000>250) {EEPROM.write(1, 1); EEPROM.write(2, (MOTOR_ANGLE/1000)-250);}
-   else {EEPROM.write(1, 0); EEPROM.write(2, MOTOR_ANGLE/1000);}
-   EEPROM.write(3,(MOTOR_ANGLE%1000)/250);
-   EEPROM.write(4,MOTOR_ANGLE%250);
-}
-void ecwrite2()
-{
-   if(ANGLE/1000>250) {EEPROM.write(5, 1); EEPROM.write(6, (ANGLE/1000)-250);}
-   else {EEPROM.write(5, 0); EEPROM.write(6, ANGLE/1000);}
-   EEPROM.write(7,(ANGLE%1000)/250);
-   EEPROM.write(8,ANGLE%250);
-}
-void eepread()
-{
-val1= EEPROM.read(1);
-val2= EEPROM.read(2);
-val3= EEPROM.read(3);
-val4= EEPROM.read(4);
-val5= EEPROM.read(5);
-val6= EEPROM.read(6);
-val7= EEPROM.read(7);
-val8= EEPROM.read(8);
-  MOTOR_ANGLE=(250*val1+val2)*1000+val3*250+val4;
-  ANGLE=(250*val5+val6)*1000+val7*250+val8;
-}
-void step32()
-{
-  digitalWrite(MS0,LOW);
-  digitalWrite(MS1,LOW);
-  digitalWrite(MS2,HIGH);
-}
-void setup()
-{
-  Serial.begin(9600);
-  dht.begin();
-  display.begin(SSD1306_SWITCHCAPVCC,0x3C);
-  pinMode(UPpin,INPUT_PULLUP);
-  pinMode(DOWNpin,INPUT_PULLUP);
-  pinMode(RIGHTpin,INPUT_PULLUP);
-  pinMode(LEFTpin,INPUT_PULLUP);
-  display.clearDisplay();
-  display.setTextColor(WHITE);
-  display.setTextSize(1);
-  display.setCursor(0,8);
-  display.print("    Stepping Motor");
-  display.setTextSize(2);
-  display.setCursor(0,16);
-  display.print(" Controler");
-  display.display();
-  delay(5000);
-  Serial.print("start!");
-  stepper.setRPM(60);
-  display.setTextSize(1);
-}
-void playDHT(void)
-{
-hum = dht.readHumidity();
-temp= dht.readTemperature();
-}
-void menu()
-{
-  display.setCursor(6,0); display.println("T: " + String(temp, 2));
-  display.setCursor(70,0); display.println("H: " + String(hum, 2));
-  if(state==1||state==2) 
-  {display.setCursor(46,8); display.println("<MENU>");}
-  else if(state==11) display.print("   rotating analog");
-  else if(state==12)
-  {display.setCursor(32,8); display.print("MOTOR RESET");}
-  else if(state==21) 
-  {display.setCursor(16,8); display.print("rotating digital");}
-    display.setCursor(0,16);
-      if(state==1||state==2) display.print("   motor control");
-      else if(state==12) display.print("   press R to RESET");
-      if(state==1) {display.setCursor(0,16);display.print(" >");}
-      if(state==11) 
-      {display.setCursor(10,16); display.print("up,down to control");}
-      else if(state==21)
-      {display.setCursor(0,16); display.print("changing step: "); display.print(change);}
-    display.setCursor(0,24);
-      if(state==1||state==2) display.print("   MOTOR RESET");
-      else if(state==11||state==12||state==21) {display.print("<                   >"); 
-      display.setCursor(46,24); if(state!=12) display.print(MOTOR_ANGLE);
-      else display.print(ANGLE);}
-    if(state==2) {display.setCursor(0,24);display.print(" >");}
-   if(state==22)
-    {  display.setCursor(8,12); display.print("RESET DONE to ");
-       display.setCursor(90,12); display.print(ANGLE);
-       display.setCursor(10,20); display.print("press L to go back");
-       MOTOR_ANGLE=ANGLE;}
-  }
+        Speed = 100; //step per sec
+        stepper.setRPM(60*Speed/MOTOR_STEPS);
+        nowRPM = 60*Speed/MOTOR_STEPS;
+        
+        inputString.reserve(200);
 
-void state11()
-{
-  if(now[0]==0&&MOTOR_ANGLE<500000&&MOTOR_ANGLE>9999)
-    {
-     if(copystate==0) {P_MT=C_MT;copystate=1;MOTOR_ANGLE++;stepper.rotate(1.8);}
-     else if(C_MT-P_MT<600) MOTOR_ANGLE;
-     else if(C_MT-P_MT<2000) {MOTOR_ANGLE+=3;stepper.setRPM(240);stepper.rotate(5.4);}
-     else if(C_MT-P_MT<4000) {MOTOR_ANGLE+=33;stepper.setRPM(300);stepper.rotate(59.4);}
-     else if(C_MT-P_MT<6000) {MOTOR_ANGLE+=83;stepper.setRPM(600);stepper.rotate(149.4);}
-     else {MOTOR_ANGLE+=333;stepper.setRPM(800);stepper.rotate(599.4);}
+        dht.begin();
+        display.begin(SSD1306_SWITCHCAPVCC,0x3C);
+        pinset();
+        startFMenu();
+        
+        sensor_t sensor;
+        dht.humidity().getSensor(&sensor);
+        
+        delayMS = sensor.min_delay/1000;
+        setstep();
     }
-    else if(now[1]==0&&MOTOR_ANGLE<500000&&MOTOR_ANGLE>9999)
+
+
+void loop() 
     {
-     if(copystate==0) {P_MT=C_MT;copystate=1;MOTOR_ANGLE--;stepper.rotate(-1.8);}
-     else if(C_MT-P_MT<600) MOTOR_ANGLE;
-     else if(C_MT-P_MT<2000) {MOTOR_ANGLE-=3;stepper.setRPM(240);stepper.rotate(-5.4);}
-     else if(C_MT-P_MT<4000) {MOTOR_ANGLE-=33;stepper.setRPM(300);stepper.rotate(-59.4);}
-     else if(C_MT-P_MT<6000) {MOTOR_ANGLE-=83;stepper.setRPM(600);stepper.rotate(-149.4);}
-     else {MOTOR_ANGLE-=333;stepper.setRPM(800);stepper.rotate(-599.4);}
+                    if (distance != 0) 
+                        {
+                          // let the stepper finish the movement
+                          positionReported = false;
+                        }
+                    if (distance == 0 && !positionReported) 
+                        {
+                          reportPosition();
+                          delay(500);
+                          positionReported = true;
+                        }
+            display.clearDisplay();
+         buttonRead();
+         menu();
+            display.display();
     }
-    else copystate=0;
-    if(MOTOR_ANGLE>=500000) MOTOR_ANGLE=499999;
-    if(MOTOR_ANGLE<=10000) MOTOR_ANGLE=10000;
-}
-void changeit()
-{
-  if(cstate==1) change=30;
-  else if(cstate==2) change=100;
-  else if(cstate==3) change=400;
-  else if(cstate==4) change=1600;
-  else if(cstate==5) change=3200;
-  else if(cstate==6) change=9600;
-  else if(cstate==7) change=32000;
-  else if(cstate==0) change=-30;
-  else if(cstate==-1) change=-100;
-  else if(cstate==-2) change=-400;
-  else if(cstate==-3) change=-1600;
-  else if(cstate==-4) change=-3200;
-  else if(cstate==-5) change=-9600;
-  else if(cstate==-6) change=-32000;
-}
-void playmotor()
-{
-  step32();
-  stepper.setRPM(1800);
-  if(cstate==-6||cstate==7) stepper.setRPM(3200);
-  stepper.rotate(1.8*change);
-  MOTOR_ANGLE+=change;
-  delay(300);
-}
-void state21()
-{
-  changeit();
-  if(S[0]==1) cstate++;
-  else if(S[1]==1) cstate--;
-  if(cstate==-7) cstate=7;
-  else if(cstate==8) cstate=-6;
-  if(S[2]==1&&MOTOR_ANGLE<500000&&MOTOR_ANGLE>9999) playmotor();
-    if(MOTOR_ANGLE>=500000) MOTOR_ANGLE=499999;
-    if(MOTOR_ANGLE<=10000) MOTOR_ANGLE=10000;
-}
-void state12()
-{
-  if(now[0]==0&&ANGLE<500000&&ANGLE>9999)
-    {
-     if(copystate==0) {P_MT=C_MT;copystate=1;ANGLE++;}
-     else if(C_MT-P_MT<600) ANGLE;
-     else if(C_MT-P_MT<2000) ANGLE+=3;
-     else if(C_MT-P_MT<4000) ANGLE+=33;
-     else if(C_MT-P_MT<6000) ANGLE+=83;
-     else ANGLE+=333;
-    }
-    else if(now[1]==0&&ANGLE<500000&&ANGLE>9999)
-    {
-     if(copystate==0) {P_MT=C_MT;copystate=1;ANGLE--;}
-     else if(C_MT-P_MT<600) ANGLE;
-     else if(C_MT-P_MT<2000) ANGLE-=3;
-     else if(C_MT-P_MT<4000) ANGLE-=33;
-     else if(C_MT-P_MT<6000) ANGLE-=83;
-     else ANGLE-=333;
-    }
-    else copystate=0;
-    if(ANGLE>=500000) ANGLE=499999;
-    if(ANGLE<=10000) ANGLE=10000;
-}
+
 void buttonRead()
 {
   controljudge();
-  if(state==11) state11(); 
-  else if (state==21) state21();
-  else if (state==12) state12();
-  if(S[0]&&state<10&&state>1) state--;
-  if(S[1]&&state<2) state++;
-  if(S[2]&&state<20) state+=10;
-  if(S[3]&&state==22) {state=1; eepread();}
-  if(S[3]&&state>10) state-=10;
+    if(state==4) motorControl();
+    else {
+      if(S[0]&&state<=3&&state>1) state--;
+      else if(S[0] && state==6 && stepmode<8) stepmode = stepmode * 2;
+      
+      if(S[1]&&state<3) state++;
+      else if(S[1] && state==6 && stepmode>1) stepmode = stepmode / 2;
+      
+      if(S[2]&&state<=3) state+=3;
+      
+      if(S[3]&&state==5) {state=1;currentPosition = 250000;}
+      else if(S[3]&&state>3) 
+        {if(state==6) setstep(); state-=3; if(!ismove) isMoving = false;}
+    }
+}
+
+void moveTo(long toPosition)
+{
+//  DRV8825 stepper(MOTOR_STEPS, DIR,STEP,MS0,MS1,MS2);
+  ismove = true;
+  isMoving = true;
+  distance = toPosition - currentPosition;
+
+  stepper.rotate(distance*1.8);
+  stepper.setRPM(nowRPM);
   
+  distance = 0;
+  isMoving = false;
+  ismove = false;
 }
-void controljudge()
+
+void reportPosition() 
+    {
+        Serial.print(F("POSITION:"));
+        Serial.print(currentPosition);
+        Serial.println("#");
+    }
+    
+// test if direction is the same, otherwise apply backlash step
+// this method is only applicable for manual focusing changes
+void applyBacklashStep(int toPosition, String lastDirection, String currentDirection) 
+    {
+        if (lastDirection == currentDirection) 
+            {
+                // no backlash
+                moveTo(toPosition);
+            }
+        else 
+            {
+                // apply backlash
+                moveTo(toPosition + backlashStep);
+                currentPosition = toPosition - backlashStep;
+            }
+    }
+
+void setstep()
 {
-  for(int i=0;i<4;i++)
+  switch(stepmode)
   {
-       if(i==0) now[i]=digitalRead(UPpin);
-  else if(i==1) now[i]=digitalRead(DOWNpin);
-  else if(i==2) now[i]=digitalRead(RIGHTpin);
-  else if(i==3) now[i]=digitalRead(LEFTpin);
-  if(now[i]!=was[i]&&now[i]==0) S[i]=1;
-  else S[i]=0;
-      was[i]=now[i];
+    case 1:
+    digitalWrite(MS0,LOW);
+    digitalWrite(MS1,LOW);
+    digitalWrite(MS2,LOW);
+      break;  
+      
+    case 2:
+    digitalWrite(MS0,HIGH);
+    digitalWrite(MS1,LOW);
+    digitalWrite(MS2,LOW);
+      break;
+      
+    case 4:
+    digitalWrite(MS0,LOW);
+    digitalWrite(MS1,HIGH);
+    digitalWrite(MS2,LOW);
+      break;
+      
+    case 8:
+    digitalWrite(MS0,HIGH);
+    digitalWrite(MS1,HIGH);
+    digitalWrite(MS2,LOW);
+      break;
+      
+//    case 16:
+//    digitalWrite(MS0,LOW);
+//    digitalWrite(MS1,LOW);
+//    digitalWrite(MS2,HIGH);
+//      break;
+//      
+//    case 32:
+//    digitalWrite(MS0,HIGH);
+//    digitalWrite(MS1,HIGH);
+//    digitalWrite(MS2,HIGH);
+//      break;
+    
   }
-}
-void loop()
-{
-  eepread();
-  Serial.print(state);
-  Serial.print(" ");
-  Serial.print(MOTOR_ANGLE);
-  Serial.print(" ");
-  Serial.print(ANGLE);
-  Serial.print(" ");
-  Serial.print(val1);
-  Serial.print(" ");
-  Serial.print(val2);
-  Serial.print(" ");
-  Serial.print(val3);
-  Serial.print(" ");
-  Serial.print(val4);
-  Serial.print(" ");
-  Serial.print(val5);
-  Serial.print(" ");
-  Serial.print(val6);
-  Serial.print(" ");
-  Serial.print(val7);
-  Serial.print(" ");
-  Serial.println(val8);
-  C_MT=millis();
-  if(state<10)playDHT();
-  buttonRead();
-  display.clearDisplay();
-  menu();
-  display.display();
-  ecwrite1();
-  ecwrite2(); 
 }
