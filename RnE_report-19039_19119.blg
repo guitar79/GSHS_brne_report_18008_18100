@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: RnE_report-19039_19119.aux
+The style file: gshs_report.bst
+A level-1 auxiliary file: sub/abstract.aux
+A level-1 auxiliary file: sub/introduction.aux
+A level-1 auxiliary file: sub/theoritical_background.aux
+A level-1 auxiliary file: sub/method_of_the_study.aux
+A level-1 auxiliary file: sub/result_and_discussion.aux
+A level-1 auxiliary file: sub/conclusion.aux
+A level-1 auxiliary file: sub/appendix.aux
+Database file #1: bibfile.bib
+You can't pop an empty literal stack for entry Ref1
+while executing---line 1410 of file gshs_report.bst
+You can't pop an empty literal stack for entry Ref3
+while executing---line 1410 of file gshs_report.bst
+You've used 4 entries,
+            2759 wiz_defined-function locations,
+            641 strings with 5581 characters,
+and the built_in function-call counts, 1551 in all, are:
+= -- 119
+> -- 86
+< -- 7
++ -- 36
+- -- 28
+* -- 165
+:= -- 286
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 50
+empty$ -- 107
+format.name$ -- 34
+if$ -- 279
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 12
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 26
+stack$ -- 0
+substring$ -- 116
+swap$ -- 18
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 0
+while$ -- 16
+width$ -- 5
+write$ -- 54
+(There were 2 error messages)

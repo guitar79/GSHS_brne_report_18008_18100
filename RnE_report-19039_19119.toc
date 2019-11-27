@@ -1,0 +1,32 @@
+\contentsline {section}{Contents}{i}
+\contentsline {section}{List of Figures}{iii}
+\contentsline {section}{List of Tables}{iv}
+\contentsline {section}{초록}{v}
+\contentsline {section}{\numberline {I}서론}{1}
+\contentsline {subsection}{\numberline {I.1}연구의 필요성}{1}
+\contentsline {subsection}{\numberline {I.2}연구의 목적}{1}
+\contentsline {section}{\numberline {II}이론적 배경}{2}
+\contentsline {subsection}{\numberline {II.1}라즈베리파이}{2}
+\contentsline {subsection}{\numberline {II.2}라즈비안 (Raspbian)}{2}
+\contentsline {subsection}{\numberline {II.3}MariaDB}{3}
+\contentsline {subsection}{\numberline {II.4}AWS}{3}
+\contentsline {section}{\numberline {III}연구 과정}{5}
+\contentsline {subsection}{\numberline {III.1}라즈베리파이에 운영체제 설치 및 네트워크 설치}{5}
+\contentsline {subsubsection}{\numberline {III.1.1}라즈비안 설치 및 기본 설정}{5}
+\contentsline {subsubsection}{\numberline {III.1.2}네트워크 및 공유기 설정}{5}
+\contentsline {subsection}{\numberline {III.2}센서의 연결}{6}
+\contentsline {subsubsection}{\numberline {III.2.1}온습도 센서(DHT22)}{6}
+\contentsline {subsubsection}{\numberline {III.2.2}기압 센서(BMP180)}{6}
+\contentsline {subsubsection}{\numberline {III.2.3}미세먼지 센서(PMS7003)}{8}
+\contentsline {subsubsection}{\numberline {III.2.4}ADC(Analog to Digital Converter, MCP3208)}{9}
+\contentsline {subsubsection}{\numberline {III.2.5}풍속센서(SEN0170)}{10}
+\contentsline {subsubsection}{\numberline {III.2.6}풍향센서(DM2014)}{11}
+\contentsline {subsubsection}{\numberline {III.2.7}강우량센서(p/n 80422)}{12}
+\contentsline {subsection}{\numberline {III.3}AWS 구조물의 보수와 센서의 기판 연결}{12}
+\contentsline {subsection}{\numberline {III.4}서버 데이터베이스로 수집한 정보 전송}{13}
+\contentsline {section}{\numberline {IV}결과 및 토의}{15}
+\contentsline {section}{\numberline {V}결론}{18}
+\contentsline {section}{\numberline {VI}부록}{19}
+\contentsline {subsection}{\numberline {VI.1}AWS Python 코드}{19}
+\contentsline {subsection}{\numberline {VI.2}풍속센서 작동을 위한 C언어 코드}{22}
+\contentsline {section}{References}{25}

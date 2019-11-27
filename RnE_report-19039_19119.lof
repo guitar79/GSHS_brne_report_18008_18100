@@ -1,0 +1,12 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Raspberry pi Logo와 본 연구에서 사용하는 3 B 모델\relax }}{2}
+\contentsline {figure}{\numberline {2}{\ignorespaces MariaDB 로고\relax }}{3}
+\contentsline {figure}{\numberline {3}{\ignorespaces 기상청 AWS 관측 자료와 한국교원대학교에 위치한 AWS 장치\relax }}{4}
+\contentsline {figure}{\numberline {4}{\ignorespaces DHT22 센서를 단독으로 연결한 모습\relax }}{7}
+\contentsline {figure}{\numberline {5}{\ignorespaces SPI 통신을 사용한 BMP180 센서의 연결\relax }}{7}
+\contentsline {figure}{\numberline {6}{\ignorespaces I2C 통신을 사용한 BMP180 센서의 연결\relax }}{8}
+\contentsline {figure}{\numberline {7}{\ignorespaces PMS7003 센서를 USB to TTL 케이블을 사용해 연결한 모습\relax }}{9}
+\contentsline {figure}{\numberline {8}{\ignorespaces ADC(MCP3208)을 라즈베리파이에 연결한 모습\relax }}{10}
+\contentsline {figure}{\numberline {9}{\ignorespaces 풍속센서와 풍향센서의 모습\relax }}{11}
+\contentsline {figure}{\numberline {10}{\ignorespaces 강우량센서를 라즈베리파이에 연결한 모습\relax }}{12}
+\contentsline {figure}{\numberline {11}{\ignorespaces 측정한 기상 정보를 DB에 전송한 모습\relax }}{16}
+\contentsline {figure}{\numberline {12}{\ignorespaces 라즈베리파이 내부 저장소에 저장된 데이터\relax }}{17}
